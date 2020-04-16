@@ -1,0 +1,29 @@
+Format for adding courses using pre made migration script (addcourses.py):
+
+Have courses in the following format in a textfile:
+
+<Course ID> e.g cisc101
+<Units> e.g 3 or 6
+<Course Title> e.g Elements of Computing Science
+<Terms offered> e.g F for just F, F/W for fall and winter, FW for multiterm courses
+<Exclusions> Course Codes of courses this course has exlcusions with, seperate by a space for each course
+<Prerequisites> Prerequisties courses for this course.
+
+For prereqs and coreqs, care has to be taken because of ORS and ANDS
+take CISC271s prereqs for example: 
+[CISC 101/3.0 or CISC 121/3.0] and [MATH 110/6.0 or MATH 111/6.0 or MATH 112/3.0] and [MATH 120/6.0 or MATH 121/6.0 or (MATH 123/3.0 and MATH 124/3.0) or MATH 126/6.0].
+exclusions will take care of a lot of our ORS on thier own. For example, we dont have to check and make sure a student only takes one of MATH110 MATH111 OR MATH112 as they all exclude eachother
+to represent ORS: Put OR, followed by the courses
+To properly code prereqs and coreqs:
+1. List any NON-OPTIONAL COURSES FIRST. this is crucial. i.e if we had CISC102 and (CISC104 or CISC106) CISC102 MUST APPEAR FIRST i.e:
+CISC102 OR CISC104 CISC106
+2. Add any OR courses next by typing OR then the courses within that or. EX, CISC271(above example) prereqs are written as:
+OR CISC101 CISC121 OR MATH110 MATH111 MATH112 OR MATH120 MATH121 MATH124(MATH123 is a prereq to MATH124 so dont need to include both) MATH126
+which translates to: you need one of : CISC101 CISC121 AND you need one of: MATH110, MATH111, MATH112 AND you need one of MATH120 MATH121 MATH124 MATH126
+
+<corequisites> same as prereqs
+<Recommendations> Any courses that appear as a recommendation for this course
+<Course Description>
+<Course Outline>
+
+Then leave a blank line and start the next course. 

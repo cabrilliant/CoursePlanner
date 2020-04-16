@@ -1,0 +1,8 @@
+to fix:
+CISC203 add prereq cisc102 option = 1
+
+
+BCHM315 add prereq BCHM218 CHEM282
+BIOL334 add prereq CHEM112
+
+fix prereq chem281: CHEM112 and CHEM114, option = 1

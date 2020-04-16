@@ -1,0 +1,430 @@
+{% load static %}
+{% load extras %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Queen's Course Planner</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{%  static "css/styles.css" %}" rel="stylesheet">
+    
+  
+
+</head>
+
+<body>
+    <!-- introduction overlay -->
+    <div id = "overlay-wrapper">
+        <div id = "overlay">
+            <h1>Hi there! Lets gather some info about you before we get started</h1>
+            <p>What year are you in?</p>
+            <form id = "yearForm" action=".">
+                <select form = "yearForm">
+                    <option value = "year1"> First Year</option>
+                    <option value = "year2"> Second Year</option>
+                    <option value = "year3"> Third Year</option>
+                    <option value = "year4"> Fourth Year</option>
+                    <input type="submit" value="Submit">
+                </select>
+            </form>
+            <div id = "insert-area"></div>
+            <div id  = "search-wrapper">
+                <div id = "search-cover"></div>
+            <div id = "search-bar">
+                <form method = "get" id="intro-search">
+                    <input type = "text" class = "form-control" name = "q'" id=" id_q" placeholder = "Enter a department (e.g CISC) or course code (e.g CISC102)">
+                </form>
+            </div> <!-- /.search-bar -->
+            <div id = "search-area-wrapper">
+                <div id = "search-area"></div>
+            <div id="selected"> </div>
+            </div>
+
+            </div> <!-- /#search-wrapper -->
+
+        </div> <!-- /#overlay -->
+    </div>
+  <div class="d-flex" id="wrapper">
+
+  	
+
+
+    <!-- left Sidebar (requirement display and such) -->
+    <div class="border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Queen's Course Planner</div>
+
+      <div class= "container" id ="main-search-container" style = "height: 90%">
+      	<div class="list-group list-group-flush" >
+      		<button type = "button" class = "sticky" onclick = "switchViewBack()" style = "font-size: 1.0rem"> Switch to Requirement View</button>
+      	</div>
+        <!-- Main Search Bar -->
+      	<div id = "search-bar" class ="sticky" >
+                <form method = "get" id="main-search">
+                    <input type = "text" class = "form-control" name = "q'" id=" main-search-input" placeholder = "Enter a course code (e.g CISC102)">
+                </form>
+            </div> <!-- /.search-bar -->
+            <ul id = "main-search-insert"></ul> <!-- where to display search results -->
+      </div>
+      
+      <!-- Generate degree drop down list -->
+      <div class="list-group list-group-flush" >
+      	<button type = "button" id = "switchbutton" onclick = "switchView()" style = "font-size: 1.0rem"> Switch to course search mode </button>
+          <select data-target = #course-display id = "planSelect" style ="border-width: 2px">
+              {% for plan in plans %}
+          <option value = {{plan.name|cut:" "}}>{{ plan.name }}</option>
+         {% endfor %}
+          </select>
+      </div>
+
+      <!-- Generate the display for each plan -->
+    {% for plan in plans %}
+    <div class = "container" id = {{ plan.name|cut:" " }}>
+        <!-- Plan progress bar -->
+    	<div class="myProgress" >
+            <div class="myBar" id = "{{ plan.name }}-bar">0/{{ plan.units }}units</div>
+        </div>
+        <div class="item" id = "core" > Core
+            {% in_plan plan.name  as reqs %}
+            <ul>
+            {% for req in reqs %}
+            <!-- Core Requirement progress bar and drop down buttons -->
+                <button type="button" class="collapsible" onclick = "expandReq(event)" >{{req.name}} {{ req.units }}.0 from</button>
+                <div class="myProgress" >
+                <div class="myBar" id = "core-{{ plan.name }}-{{ req.name }}">0/{{ req.units }}units</div>
+                </div>
+                <ul>
+                    <!-- Populate requirements with their courses -->
+                {% for course in req.requires.all %}
+                    <li draggable = "true" ondragstart="drag(event)" onclick = "displayCourse(event)" id = {{ course.ID}}>{{ course.ID}}/{{ course.units }}.0</li>
+                    {% endfor %}
+                </ul>
+             {% endfor %}
+            </ul>
+        </div>
+
+        <!-- option section -->
+        <div class="item" id = "option">
+                {% in_planOp plan.name as options %}
+                {% maxOption plan as maxOp %}
+
+        <!-- option dropdown menu -->
+        {% in_planOp plan.name as options %}
+        <select id = "op-select" onchange = "changeOp(event)">
+        	{%  for i in maxOp|times %}
+        	{% if i != 0 %}
+        	<option value = "option{{i}}">Option {{i}}</option>
+        	{% endif %}
+        	{% endfor %}
+        </select>
+
+
+        <!-- option display -->
+        {%  for i in maxOp|times %}
+            {% if i != 0 %}
+            {% if i == 1 %}
+            <div class = "item option{{ i }} hideme" id="option{{ i }}">
+            <p>Option{{ i }}</p>
+            {% if plan.name == "MAJOR" %}
+            {% getMajor options i as majorName%}
+        	<p> {{majorName}}</p>
+        	{% endif %}
+            {% endif %}
+            {% if i > 1 %}
+            <div class = "item option{{ i }} hideme" id="option{{ i }}" style = "display: none">
+            <p>Option{{ i }}</p>
+            {% if plan.name == "MAJOR" %}
+        	{% getMajor options i as majorName%}
+        	<p> {{majorName}}</p>
+        	{% endif %}
+            {% endif %}
+
+            <!-- option dropdownbuttons and progress bars -->
+            {% for req in options %}
+                {% if req.opNumber == i %}
+                <button type="button" class="collapsible" onclick = "expandReq(event)">{{req.name}} {{ req.units }}.0 from</button>
+                    <div class="myProgress" >
+                <div class="myBar" id = "option-{{ plan.name }}-{{ req.opNumber }}">0/{{ req.units }}</div>
+                </div>
+                <ul>
+                    <!-- populate requirements -->
+                {% for course in req.requires.all %}
+                    <li draggable = "true" ondragstart="drag(event)" onclick = "displayCourse(event)" id = {{ course.ID}}>{{ course.ID}}/{{ course.units }}.0</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% endfor %}
+        </div>
+            {% endif %}
+            {% endfor %}
+
+
+
+
+    </div>
+    </div>
+    {% endfor %}
+
+
+
+      </div>
+
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+
+      {% csrf_token %}
+
+      <div class="container-fluid" id= "plannerArea">
+        <!-- Layout for the Planner area -->
+        <div class="row" id = "rhead" >
+            <div class="column chead1" id="y1Head">Year 1</div>
+            <div class="column chead1" id="y2Head">Year 2</div>
+            <div class="column chead1" id="y3Head">Year 3</div>
+            <div class="column chead1" id="y4Head">Year 4</div>
+
+          </div>
+          <div class="row" id="rhead">
+            <div class="column" id = "chead">Fall</div>
+              <div class="column" id = "chead">Winter</div>
+
+              <div class="column" id = "chead">Fall</div>
+              <div class="column" id = "chead">Winter</div>
+              <div class="column" id = "chead">Fall</div>
+
+            <div class="column" id = "chead">Winter</div>
+            <div class="column" id = "chead">Fall</div>
+            <div class="column" id = "chead">Winter</div>
+
+          </div>
+          <div class="row" >
+            <div class="column f1" id = "f1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w1" id = "w1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column f2" id = "f2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w2" id= "w2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f3" id = "f3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w3" id = "w3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f4" id = "f4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w4" id = "w4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+          </div>
+          <div class="row">
+            <div class="column f1" id = "f1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w1" id = "w1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column f2" id = "f2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w2" id= "w2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f3" id = "f3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w3" id = "w3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f4" id = "f4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w4" id = "w4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+          </div>
+          <div class="row">
+            <div class="column f1" id = "f1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w1" id = "w1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column f2" id = "f2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w2" id= "w2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f3" id = "f3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w3" id = "w3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f4" id = "f4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w4" id = "w4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+          </div>
+          <div class="row">
+            <div class="column f1" id = "f1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w1" id = "w1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column f2" id = "f2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w2" id= "w2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f3" id = "f3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w3" id = "w3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f4" id = "f4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w4" id = "w4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+          </div>
+          <div class="row">
+            <div class="column f1" id = "f1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w1" id = "w1" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column f2" id = "f2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w2" id= "w2" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f3" id = "f3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w3" id = "w3" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+              <div class="column f4" id = "f4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+            <div class="column w4" id = "w4" ondrop="dropCourse(event)" ondragover="allowDrop(event)"></div>
+          </div>
+      </div>
+      <!-- /layout for planner area -->
+
+     <!-- Course Info display -->
+        <div class = "info-wrapper">
+            {% for course1 in courses %}
+                <p class ="infotxt" id="info{{ course1.ID }}"><b>Course ID:</b> {{ course1.ID}}<br>
+                    <b>Course Title:</b> {{ course1.title}}<br>
+                    <b>Term(s) Offered:</b> {{ course1.term}}<br>
+                    <b>Course Description:</b> {{ course1.description }}<br>
+                    <b>Exclusions:</b> {% for ex in course1.exclusions.all%}
+                        {{ ex.ID }}
+                        {% endfor %}
+
+                    <br>
+
+                    <b>Prerequisites: </b>
+                    {% getPres course1 as pres %}
+                    {% falseVar as bool %}
+                    {% for pre in pres %}
+                        {% if pre.option == 0 %}
+                        {{ pre.req.ID }}
+                        {% elif pre.option == 1 %}
+                            {% if bool %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                {% trueVar as bool %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% falseVar as bool2 %}
+                            {% elif pre.option == 2 %}
+                            {% if bool2 %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                )
+                                {% trueVar as bool2 %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% falseVar as bool3 %}
+                            {% elif pre.option == 3 %}
+                            {% if bool3 %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                )
+                                {% trueVar as bool3 %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% falseVar as bool4 %}
+                            {% elif pre.option == 4 %}
+                            {% if bool4 %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                )
+                                {% trueVar as bool4 %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% endif %}
+                        {% endfor %}
+
+                        {% maxPre course1 as max %}
+                        {% if max > 0 %}
+                        )
+                        {% endif %}
+                        <br>
+
+                <b>Corequisites: </b>
+                    {% getCos course1 as pres %}
+                    {% falseVar as bool %}
+                    {% for pre in pres %}
+                        {% if pre.option == 0 %}
+                        {{ pre.req.ID }}
+                        {% elif pre.option == 1 %}
+                            {% if bool %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                {% trueVar as bool %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% falseVar as bool2 %}
+                            {% elif pre.option == 2 %}
+                            {% if bool2 %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                )
+                                {% trueVar as bool2 %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% falseVar as bool3 %}
+                            {% elif pre.option == 3 %}
+                            {% if bool3 %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                )
+                                {% trueVar as bool3 %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% falseVar as bool4 %}
+                            {% elif pre.option == 4 %}
+                            {% if bool4 %}
+                                or
+                                {{ pre.req.ID }}
+                            {% else %}
+                                )
+                                {% trueVar as bool4 %}
+                                (
+                                {{ pre.req.ID }}
+                            {% endif %}
+                        {% endif %}
+                        {% endfor %}
+
+                        {% maxCo course1 as max %}
+                        {% if max > 0 %}
+                        )
+                        {% endif %}
+                        <br>
+                <b>Recommendations:</b> {% for rec in course1.recommended.all%}
+                        {{ rec.ID }}
+                        {% endfor %}
+
+                    <br>
+                </p>
+
+
+            {% endfor %}
+        <!-- /#course-info-display -->
+        </div>
+    </div>
+
+
+    <!-- /#page-content-wrapper -->
+
+    <!-- recommendations wrapper -->
+    <!-- recommendations bar (right side) -->
+    <div class = "border-left" id= "recom-wrapper">
+  		<div class="sidebar-heading">Recommendations </div>
+        <div class = "item" id = "recom-area">
+    </div>
+  	</div><!-- /#recom-wrapper -->
+
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{%  static "vendor/jquery/jquery.min.js" %}"></script>
+  <script src="{%  static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+  <script src="{% static "js/script.js" %}"></script>
+
+
+
+
+
+
+</body>
+
+</html>

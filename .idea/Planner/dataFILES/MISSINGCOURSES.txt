@@ -1,0 +1,373 @@
+APSC142
+3
+Introduction to Computer Programming for Engineers
+F/W
+NONE
+NONE
+NONE
+NONE
+This course introduces concepts, theory and practice of computer programming. Implementation uses microcomputers. The emphasis is on the design of correct and efficient algorithms and on programming style. Applications are made to engineering problems. NOTE: The fall term delivery of this course is intended for students in the ECE direct-entry program, and enrolment in this term will require permission of the Associate Dean (Academic).
+NONE	
+
+APSC143
+3
+Introduction to Computer Programming for Engineers
+F
+NONE
+NONE
+NONE
+NONE
+This course introduces concepts, theory and practice of computer programming. Implementation uses microcomputers. The emphasis is on the design of correct and efficient algorithms and on programming style. Applications are made to engineering problems.
+none
+
+APSC171
+3
+Calculus I
+F
+NONE
+NONE
+NONE
+NONE
+Graphs and derivatives of vector-valued functions; related applications.  Implicit derivatives and related rate applications. Fundamental Theorem of Calculus, Riemann integral; applications to problems involving areas, volumes, mass, charge, work, etc. Integration by substitution, by parts, and partial fractions.  Introduction to second-order differential equations and complex numbers.
+NONE
+
+APSC172
+3
+Calculus II
+W
+NONE
+APSC171
+NONE
+NONE
+This course continues calculus concepts from APSC 171, including space curves, speed, and velocity. Functions of several variables, partial derivatives, differentials, error estimates, gradient, maxima and minima. Double and triple integrals, polar and cylindrical coordinates; applications to mass, center of mass, moment. Series, power series; Taylor polynomial approximations, error analysis.
+NONE
+
+APSC174
+3
+W
+Introduction to Linear Algebra
+NONE
+NONE
+NONE
+NONE
+Systems of linear equations; real vectors spaces and subspaces; linear combinations and linear spans; linear dependence and linear independence; applications to systems of linear equations and their solution via Gaussian elimination; bases and dimension of real vector spaces; linear transformations, range, kernel and Rank-Nullity theorem; matrix representation of a linear transformation; composition of linear transformations and matrix multiplication; invertible matrices and determinants; eigenvalues and eigenvectors of square matrices. Applications of the course material to engineering systems are illustrated.
+NONE
+
+COMM161
+3
+Introduction to Mathematical Analysis for Management
+N/A
+NONE
+NONE
+NONE
+NONE
+This course is designed to enhance student ability to apply advanced mathematical techniques including: linear algebra, differential and integral calculus, optimization, probability theory and computer modeling to tackle a wide range of managerial problems. It is assumed that students have taken Ontario Grade 12 calculus or its equivalent.
+NONE
+
+COMM162
+3
+Managerial Statistics
+N/A
+ECON250 PSYC202 STAT162 STAT163 STAT263 PHED351
+NONE
+NONE
+NONE
+NONE
+This course develops students’ capabilities for analyzing and drawing conclusions from data. Course coverage will include probability, probability models, statistical inference, and a thorough grounding in simple and multiple regression. Topics will be illustrated with appropriate examples, many supported by spreadsheet methods.
+NONE
+
+COMM392
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+ELEC278
+4
+Fundamentals of Information Structures
+F
+CISC235
+OR APSC142 APSC143
+NONE
+NONE
+Fundamentals of Data Structures and Algorithms: arrays, linked lists, stacks, queues, deques, asymptotic notation, hash and scatter tables, recursion, trees and search trees, heaps and priority queues, sorting, and graphs. Advanced programming in the C language. Introduction to object oriented programming concepts in the context of data structures.
+NONE
+
+CISC333
+3
+Introduction to Data Mining
+F
+NONE
+CISC121 CISC203 STAT100+ OR MATH110 MATH111 MATH112
+NONE
+NONE
+Supervised and unsupervised learning, neural networks, support-vector machines, decision trees, metric-based clustering, distribution-based clustering, rule-based techniques, genetic algorithms. Applications to information retrieval, web mining, customer-relationship management, recommender systems, science and engineering.
+The main objective of this course is ensure that students know enough about the algorithms, strengths and limitations of mainstream data-mining techniques that they can use data-mining software appropriately, and can understand the results that are produced. In particular, they should be able to see how to model a real-world problem, choose appropriate algorithms, analyse the results, and explain their implications for the original problem. A smaller objective is to make students aware that not all problems in computing have a single cut-and-dried, correct solution.
+
+CMPE333
+3
+Data Analytics
+F
+CISC251 CISC333
+OR APSC142 APSC143
+NONE
+NONE
+Supervised and unsupervised learning, neural networks, support-vector machines, decision trees, metric-based clustering, distribution-based clustering, rule-based techniques, genetic algorithms. Applications to information retrieval, web mining, customer-relationship management, recommender systems, science and engineering.
+The main objective of this course is ensure that students know enough about the algorithms, strengths and limitations of mainstream data-mining techniques that they can use data-mining software appropriately, and can understand the results that are produced. In particular, they should be able to see how to model a real-world problem, choose appropriate algorithms, analyse the results, and explain their implications for the original problem. A smaller objective is to make students aware that not all problems in computing have a single cut-and-dried, correct solution.
+
+ELEC377
+3
+Operating Systems
+F
+CMPE324 CISC324
+OR ELEC274 CISC221 OR ELEC278 CISC235
+NONE
+NONE
+Operating systems for conventional shared memory computers. System services and system calls, concurrent processes and scheduling, synchronization and communication, deadlock. File systems and protection, memory management and virtual memory, device management and drivers. Unix operating system. Real-time and distributed systems. Security.
+NONE
+
+ELEC470
+3
+Computer System Architecture
+W
+NONE
+ELEC371 OR ELECT274 CISC221
+NONE
+NONE
+This course covers advanced topics in computer architecture with a quantitative perspective. Topics include: instruction set design; memory hierarchy design; instruction-level parallelism (ILP), pipelining, superscalar processors, hardware multithreading; thread-level parallelism (TLP), multiprocessors, cache coherency; clusters; introduction to shared-memory and message-passing parallel programming; data-level parallelism (DLP), GPU architectures.
+NONE
+
+ELEC471
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+ELEC476
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+ELEC478
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+BCHM218
+3
+Molecular Biology
+F/S
+MBIO218
+BIOL102 CHEM112
+NONE
+NONE
+BCHM 218, Molecular Biology, is a foundational course to the study of molecular biology, focusing on the structural and functional properties and relationships of DNA, RNA and proteins, particularly the processes required to reliably pass genetic information from DNA to RNA to protein, and from one generation to the next.
+NONE
+
+BCHM315
+3
+Proteins and Enzymes
+F
+BCHM310
+SEE COURSE PAGE
+NONE
+NONE
+Principles of protein biochemistry, enzymology, and protein engineering.
+NONE
+
+
+PHYS213
+PHYS313
+COMP230
+COMP329
+SOFT325
+CISC366
+MBIO218
+BIOL334
+MATH262
+COCA221
+SOFT327
+PSYC221
+PSYC100
+COGS200
+PSYC220
+MATH4U
+MATH122
+MATH213
+MATH217
+MTHE217
+MATH227
+MATH226
+MATH235
+MATH237
+MATH232
+PHYS317
+PHYS312
+PHYS316
+MATH236
+MATH327
+BIOL342
+CHEE209
+ECON250
+GPHY247
+KNPE251
+NURS323
+POLS385
+PSYC202
+SOCY211
+STAT267
+STAT367
+ECON351
+ECON251
+STAT505
+BIOL102
+BIOL103
+CHEM112
+BIOL243
+STAM200
+BIOL205
+BIOL331
+CISC399
+CHEM281
+CHEM282
+CHEM285
+PHGY215
+PHGY216
+PHGY214
+COMM365
+
+MATH424
+MATH481
+MATH302
+CISC426
+CISC266
+WRIT125
+WRIT175
+PHIL259
+MECH380
+COMM200
+COMM244
+COMM251
+APSC221
+ *Humanities, Languages, and Social Sciences Courses
+ *Any discipline other than CISC COCA COGS MATH STAT APSC ELEC
+COOM200
+ELEC474
+CISC400+
+CISC200+
+ARTH116
+ARTH117
+ARTH120
+ARTH400+
+ARTH300+
+ARTH100-
+ARTH200-
+DRAM100
+DRAM181
+BISC100
+BISC101
+DRAM200
+DRAMM220
+DRAM240
+DRAM241
+DRAM242
+DRAM300+
+CLST312
+DEVS321
+DRAM335
+ENGL256
+ENGL257
+ENGL258
+ENGL259
+ENGL326
+ENGL335
+ENIN100+
+FILM381
+FREN266
+FREN305
+FREN306
+GRMN561
+IDIS210
+IDIS311
+IDIS410
+ITLN357
+LLCU200
+LLCU257
+LLCU301
+LLCU332
+LLCU339
+MAPP300
+MUSC287
+MUSC373
+MUTH
+STSC300
+STSC309
+STSC339
+STSC381
+FILM110
+FILM104
+FILM106
+FILM206
+FILM216
+FILM217
+FILM218
+FILM226
+FILM236
+FILM240
+FILM260
+FILM250
+FILM400+
+FILM300+
+MUSC104
+MUSC156
+MUSC255
+MUSC191
+MUTH110
+MUTH111
+MUSC210
+MUSC211
+MUSC203
+MUSC204
+MUSC205
+MUSC300+
+MUSC200+
+LING100
+LING310
+LING320
+LING330
+LING340
+LING415
+PHIL111
+PHIL115
+PHIL250
+PHIL261
+PHIL270
+PHIL311
+PHIL351
+PHIL359
+PHIL381
+PSYC203
+PSYC215
+PSYC271

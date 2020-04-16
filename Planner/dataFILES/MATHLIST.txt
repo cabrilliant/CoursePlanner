@@ -1,0 +1,804 @@
+MATH110
+6
+Linear Algebra
+FW
+MATH111 MATH112 MATH212
+NONE
+NONE
+MATH4U
+For students intending a medial or major concentration in Mathematics or Statistics. Provides a thorough introduction to linear algebra up to and including eigenvalues and eigenvectors.
+NONE
+
+MATH111
+6
+Linear Algebra
+FW
+MATH110 MATH112
+NONE
+NONE
+MATH4U
+An introduction to matrices and linear algebra. Emphasis on applications to biological and economic systems and to computer applications. Topics covered will include systems of equations, eigenvalues, recursions, orthogonality, regression analysis, and geometric transformations.
+NONE
+
+MATH112
+3
+Introduction to Linear Algebra
+W
+MATH110 MATH111
+NONE
+NONE
+NONE
+A brief introduction to matrix algebra, linear algebra, and applications. Topics include systems of linear equations, matrix algebra, determinants, the vector spaces Rn and their subspaces, bases, co-ordinates, orthogonalization, linear transformations, eigenvectors, diagonalization of symmetric matrices, quadratic forms.
+NONE
+
+MATH120
+6
+Differential and Integral Calculus
+FW
+MATH121 MATH122 MATH123 MATH124 MATH126
+NONE
+NONE
+MATH4U
+A thorough discussion of calculus, including limits, continuity, differentiation, integration, multivariable differential calculus, and sequences and series.
+NONE
+
+MATH121
+6
+Differential and Integral Calculus
+FW
+MATH120 MATH122 MATH123 MATH124 MATH126
+NONE
+NONE
+MATH4U
+Differentiation and integration with applications to biology, physics, chemistry, economics, and social sciences; differential equations; multivariable differential calculus.
+NONE
+
+MATH123
+3
+Differential & Integral Calculus I
+F
+MATH120 MATH121 MATH122 MATH126
+NONE
+NONE
+NONE
+Differentiation and integration of elementary functions, with applications to physical and social sciences. Topics include limits, related rates, Taylor polynomials, and introductory techniques and applications of integration.
+NONE
+
+MATH124
+3
+Differential & Integral Calculus II
+W
+MATH120 MATH121 MATH122 MATH126
+MATH123
+NONE
+NONE
+Topics include techniques of integration, differential equations, and multivariable differential calculus.
+NONE
+
+MATH126
+6
+Differential & Integral Calculus
+FW
+MATH120 MATH121 MATH122 MATH123 MATH124
+NONE
+NONE
+NONE
+Differentiation and integration of the elementary functions, with applications to the social sciences and economics; Taylor polynomials; multivariable differential calculus.
+NONE
+
+MATH210
+3
+Rings and Fields
+W
+MATH211 MATH213 MATH217
+OR MATH110 MATH111 MATH112
+NONE
+NONE
+Integers, polynomials, modular arithmetic, rings, ideals, homomorphisms, quotient rings, division algorithm, greatest common divisors, Euclidean domains, unique factorization, fields, finite fields.
+NONE
+
+MATH211
+6
+Algebraic Methods
+FW
+MATH210
+OR MATH120 MATH121 MATH124 MATH126 MATH122 OR MATH110 MATH111 MATH112
+NONE
+NONE
+Algebraic techniques used in applied mathematics, statistics, computer science and other areas.Polynomials, complex numbers; least squares approximations; discrete linear systems; eigenvalueestimation; non-negative matrices - Markov chains; permutation groups; linear Diophantineequations; introduction to algebraic structures.
+NONE
+
+MATH212
+3
+Linear Algebra II
+W
+MATH110
+OR MATH111 MATH112 MTHE217
+NONE
+NONE
+Vector spaces, direct sums, linear transformations, eigenvalues, eigenvectors, inner product spaces, self-adjoint operators, positive operators, singular-value decomposition, minimal polynomials, Jordan canonical form, the projection theorem, applications to approximation and optimization problems.
+NONE
+
+MATH221
+3
+Vector Calculus
+F
+MATH227 MATH280
+OR MATH120 MATH121 MATH122 MATH124 MATH126
+NONE
+NONE
+Double and triple integrals, including polar and spherical coordinates. Parameterized curves and line integrals. Gradient, divergence, and curl. Green�s theorem. Parameterized surfaces and surface integrals. Stokes� and Gauss� Theorems.
+NONE
+
+MATH225
+3
+Ordinary Differential Equations
+F/W
+MATH226 MATH231 MATH235 MATH237 MATH232
+OR MATH120 MATH121 MATH124 MATH126 MATH122
+NONE
+NONE
+An introduction to solving ordinary differential equations. Topics include first order differential equations, linear differential equations with constant coefficients, and applications, Laplace transforms, systems of linear equations.
+NONE
+
+MATH228
+3
+Complex Analysis
+W
+MATH326 PHYS317 PHYS312
+OR MATH110 MATH111 MATH112 OR MATH120 MATH121 MATH122 MATH124
+NONE
+NONE
+Complex arithmetic, complex plane. Differentiation, analytic functions. Elementary functions. Contour integration, Cauchy�s Theorem, and Integral Formula. Taylor and Laurent series, residues with applications to evaluation of integrals.
+NONE
+
+MATH231
+3
+Differential Equations
+F
+MATH225 MATH226 MATH235 MATH237 MATH232
+OR MATH110 MATH111 OR MATH120 MATH121 MATH122 MATH124
+NONE
+NONE
+An introduction to ordinary differential equations and their applications. Intended for students concentrating in Mathematics or Statistics.
+NONE
+
+MATH272
+3
+Applications of Numerical Methods
+NO
+CISC271 PHYS313
+OR MATH110 MATH111 MATH212 OR CISC101 CISC121
+OR MATH225 MATH232
+NONE
+An introductory course on the use of computers in science. Topics include: solving linear and nonlinear equations, interpolation, integration, and numerical solutions of ordinary differential equations. Extensive use is made of MATLAB, a high level interactive numerical package.
+NONE
+
+MATH280
+3
+Advanced Calculus
+F
+MATH221 MATH227
+OR MATH110 MATH111 MATH112 OR MATH120 MATH121 MATH122 MATH124
+NONE
+NONE
+Limits, continuity, C1, and linear approximations of functions of several variables. Multiple integrals and Jacobians. Line and surface integrals. The theorems of Green, Stokes, and Gauss.
+NONE
+
+MATH281
+3
+Introduction to Real Analysis
+W
+NONE
+OR MATH120 MATH121 MATH122 MATH124
+NONE
+NONE
+Taylor�s theorem, optimization, implicit and inverse function theorems. Elementary topology of Euclidean spaces. Sequences and series of numbers and functions. Pointwise and uniform convergence. Power series.
+NONE
+
+BIOM300
+3
+Modeling Techniques in Biology
+F
+NONE
+OR MATH120 MATH121 MATH122 MATH124
+NONE
+OR MATH110 MATH111
+Modeling will be presented in the context of biological examples drawn from ecology and evolution, including life history evolution, sexual selection, evolutionary epidemiology and medicine, and ecological interactions. Techniques will be drawn from dynamical systems, probability, optimization, and game theory with emphasis put on how to formulate and analyze models.
+NONE
+
+IDIS303
+3
+Mathematics and Poetry
+NO
+NONE
+IN(3)
+NONE
+NONE
+An exploration of the way in which the patterns that we observe in the world about us can be described by language and understood with the tools of analysis and synthesis. A carefully selected sequence of poems and mathematical problems will be examined in a discussion format, and students will be expected to examine similar examples on their own.
+NONE
+
+MATH310
+3
+Group Theory
+F
+NONE
+OR MATH210 MATH217
+NONE
+NONE
+Permutation groups, matrix groups, abstract groups, subgroups, homomorphisms, cosets, quotient groups, group actions, Sylow theorems.
+NONE
+
+MATH311
+3
+Elementary Number Theory
+NO
+NONE
+OR MATH210 MATH211
+NONE
+NONE
+Congruences; Euler�s theorem; continued fractions; prime numbers and their distribution; quadratic forms; Pell�s equation; quadratic reciprocity; introduction to elliptic curves.
+NONE
+
+MATH314
+3
+Representations of the Symmetric Group
+W
+NONE
+OR MATH210 MATH211
+NONE
+NONE
+The symmetric group consists of all permutations of a finite set or equivalently all the bijections from the set to itself. This course explores how to map the symmetric group into a collection of invertible matrices. To handle, count, and manipulate these objects, appropriate combinatorial tools are introduced.
+NONE
+
+MATH326
+3
+Functions of a Complex Variable
+F
+MATH228 PHYS317 PHYS312
+MATH281
+NONE
+NONE
+Complex numbers, analytic functions, harmonic functions, Cauchy�s Theorem, Taylor and Laurent series, calculus of residues, Rouche�s Theorem
+NONE
+
+MATH328
+3
+Real Analysis
+W
+NONE
+MATH281
+NONE
+NONE
+Metric spaces, topological spaces, compactness, completeness, contraction mappings, sequences and series of functions, uniform convergence, normed linear spaces, Hibert space
+NONE
+
+MATH334
+3
+Mathematical Methods for Engineering and Physics
+F
+PHYS316 PHYS312
+MATH281 OR MATH110 MATH111 MATH212
+NONE
+NONE
+Banach and Hilbert spaces of continuous- and discrete-time signals; spaces of continuous and not necessarily continuous signals; continuous-discrete Fourier transform; continuous-continuous Fourier transform; discrete-continuous Fourier transform; discrete- discrete Fourier transform; transform inversion using Fourier series and Fourier integrals.
+NONE
+
+MATH335
+3
+Mathematics of Engineering Systems
+W
+MATH236 PHYS312
+MATH334 OR MATH326 MATH228
+NONE
+NONE
+Linear input/output systems and their stability. Frequency-domain and time-domain analysis. Continuous and discrete time- modeling. Fourier, Laplace, and Z-transforms. Sampling and the discrete-time Fourier transform. Application to modulation of communications signals, filter design, and digital sampling.
+NONE
+
+MATH337
+3
+Introduction to Operations Research Models
+W
+NONE
+OR STAT268 STAT351 OR MATH110 MATH111 MATH112 OR MATH120 MATH121 MATH122 MATH124
+NONE
+NONE
+Some probability distributions, simulation, Markov chains, queuing theory, dynamic programming, inventory theory.
+NONE
+
+MATH338
+3
+Fourier Methods for Boundary Value Problems
+F
+PHYS316 PHYS312 PHYS317
+OR MATH221 MATH280 OR MATH231 MATH232 OR MATH110 MATH111
+NONE
+NONE
+Methods and theory for ordinary and partial differential equations; separation of variables in rectangular and cylindrical coordinate systems; sinusoidal and Bessel orthogonal functions; the wave, diffusion, and Laplace�s equation; Sturm-Liouville theory; Fourier transform.
+NONE
+
+MATH339
+3
+Evolutionary Game Theory
+F
+NONE
+OR MATH120 MATH121 MATH122 MATH124
+NONE
+NONE
+This course highlights the usefulness of game theoretical approaches in solving problems in the natural sciences and economics. Basic ideas of game theory, including Nash equilibrium and mixed strategies; stability using approaches developed for the study of dynamical systems, including evolutionary stability and replicator dynamics; the emergence of co-operative behaviour; limitations of applying the theory to human behaviour.
+NONE
+
+MATH341
+3
+Differential Geometry
+NO
+NONE
+MATH110 MATH280
+NONE
+NONE
+Introductory geometry of curves/surfaces: directional/covariant derivative; differential forms; Frenet formulas; congruent curves; surfaces in R3: mappings, topology, intrinsic geometry; manifolds; Gaussian/mean curvature; geodesics, exponential map; Gauss-Bonnet Theorem; conjugate points; constant curvature surfaces.
+NONE
+
+MATH381
+3
+Mathematics with a Historical Perspective
+W
+NONE
+OR MATH110 MATH111 MATH212 OR MATH120 MATH121 MATH126 MATH122
+NONE
+NONE
+A historical perspective on mathematical ideas focussing on a selection of important and accessible theorems. A project is required.
+NONE
+
+MATH382
+3
+Mathematical Explorations
+NO
+NONE
+OR MATH221 MATH225 MATH231 MATH280 MATH232 OR MATH210 MATH211
+NONE
+NONE
+Elementary mathematical material will be used to explore different ways of discovering results and mastering concepts. Topics will come from number theory, geometry, analysis, probability theory, and linear algebra. Much class time will be used for problem solving and presentations by students.
+NONE
+
+MATH384
+3
+Mathematical Theory of Interest
+F
+NONE
+IN(3) OR MATH120 MATH121 MATH122 MATH124 MATH126
+NONE
+NONE
+Interest accumulation factors, annuities, amortization, sinking funds, bonds, yield rates, capital budgeting, contingent payments. Students will work mostly on their own; there will be a total of six survey lectures and six tests throughout the term, plus opportunity for individual help.
+NONE
+
+MATH385
+3
+Life Contingencies
+W
+NONE
+MATH384 OR MATH120 MATH121 MATH122 MATH124 MATH126 OR STAT268 STAT351
+NONE
+NONE
+Measurement of mortality, life annuities, life insurance, premiums, reserves, cash values, population theory, multi-life functions, multiple-decrement functions. The classroom meetings will be primarily problem-solving sessions, based on assigned readings and problems.
+NONE
+
+MATH386
+3
+Our Number System � an Advanced Perspective
+NO
+NONE
+MATH281
+NONE
+NONE
+Integers and rationals from the natural numbers; completing the rationals to the reals; consequences of completeness for sequences and calculus; extensions beyond rational numbers, real numbers, and complex numbers.
+NONE
+
+MATH387
+3
+Elementary Geometry � an Advanced Perspective
+NO
+NONE
+IN(3) OR MATH221 MATH280 MATH281
+NONE
+NONE
+In-depth follow-up to high school geometry: striking new results/connections; analysis/proof of new/familiar results from various perspectives; extensions (projective geometry, e.g.); relation of classical unsolvable constructions to modern algebra; models/technology for geometric exploration.
+NONE
+
+MATH401
+3
+Graph Theory
+NO
+NONE
+OR MATH210 MATH211 MATH217
+NONE
+NONE
+An introduction to graph theory, one of the central disciplines of discrete mathematics. Topics include graphs, subgraphs, trees, connectivity, Euler tours, Hamiltonian cycles, matchings, independent sets, cliques, colourings, and planarity.
+NONE
+
+MATH402
+3
+Enumerative Combinatorics
+F
+NONE
+OR MATH210 MATH211 MATH217
+NONE
+NONE
+Enumerative combinatorics is concerned with counting the number of elements of a finite set. The techniques covered include inclusion-exclusion, bijective proofs, double-counting arguments, recurrence relations, and generating functions
+NONE
+
+MATH406
+3
+Introduction to Coding Theory
+NO
+NONE
+MATH210
+NONE
+NONE
+Construction and properties of finite fields. Polynomials, vector spaces, block codes over finite fields. Hamming distance and other code parameters. Bounds relating code parameters. Cyclic codes and their structure as ideals. Weight distribution. Special codes and their relation to designs and projective planes. Decoding algorithms.
+NONE
+
+MATH413
+3
+Introduction to Algebraic Geometry
+NO
+NONE
+MATH210
+NONE
+NONE
+An introduction to the study of systems of polynomial equations in one or many variables. Topics covered include the Hilbert basis theorem, the Nullstellenstaz, the dictionary between ideals and affine varieties, and projective geometry.
+NONE
+
+MATH414
+3
+Introduction to Galois Theory
+W
+NONE
+MATH310
+NONE
+NONE
+An introduction to Galois Theory and some of its applications.
+NONE
+
+MATH418
+3
+Number Theory and Cryptography
+W
+NONE
+OR MATH210 MATH217
+NONE
+NONE
+Time estimates for arithmetic and elementary number theory algorithms (division algorithm, Euclidean algorithm, congruences), modular arithmetic, finite fields, quadratic residues. Simple cryptographic systems; public key, RSA. Primality and factoring: pseudoprimes, Pollard�s rho-method, index calculus. Elliptic curve cryptography.
+NONE
+
+MATH421
+3
+Fourier Series
+NO
+NONE
+MATH281
+NONE
+NONE
+An exploration of the modern theory of Fourier series: Abel and Cesaro summability; Dirichlet�s and Fej�r�s kernels; term by term differentiation and integration; infinite products; Bernoulli numbers; Gibbs�s phenomenon.
+NONE
+
+MATH427
+3
+Introduction to Deterministic Dynamical Systems
+F
+NONE
+MATH328 MATH231
+NONE
+NONE
+Topics include: global properties of flows and diffeomorphisms, Invariant sets and dynamics, Bifurcations of fixed and periodic points; stability and chaos. Examples will be selected by the instructor. 
+NONE
+
+MATH434
+3
+Optimization Theory and Applications
+NOT KNOWN
+NONE
+MATH281 OR MATH110 MATH111 MATH212
+NONE
+NONE
+Theory of convex sets and functions; separation theorems; primal-duel properties; geometric treatment of optimization problems; algorithmic procedures for solving constrained optimization programs; engineering and economic applications.
+NONE
+
+MATH436
+3
+Partial Differential Equations
+NO
+NONE
+MATH280 OR MATH231 MATH237
+NONE
+OR MATH328 MATH334 MATH338 PHYS312
+Quasilinear equations: Cauchy problems, method of characteristics; Cauchy-Kovalevski theorem; generalized solutions; wave equation, Huygens� principle, conservation of energy, domain of dependence; Laplace equation, boundary value problems, potential theory, Green�s functions; heat equation, maximum principle.
+NONE
+
+MATH437
+3
+Topics in Applied Mathematics
+W
+NONE
+VARIES
+NONE
+NONE
+Subject matter to vary from year to year
+NONE
+
+MATH439
+3
+Lagrangian Mechanics, Dynamics, and Control
+W
+NONE
+OR MATH231 MATH327 OR MATH280 MATH281
+NONE
+NONE
+Geometric modeling, including configuration space, tangent bundle, kinetic energy, inertia, and force. Euler-Lagrange equations using affine connections. The last part of the course develops one of the following three applications: mechanical systems with nonholonomic constraints; control theory for mechanical systems; equilibria and stability.
+NONE
+
+MATH474
+3
+Information Theory
+F
+NONE
+OR STAT268 STAT351
+NONE
+STAT353
+Topics include: information measures, entropy, mutual information, modeling of information sources, lossless data compression, block encoding, variable-length encoding, Kraft inequality, fundamentals of channel coding, channel capacity, rate-distortion theory, lossy data compression, rate-distortion theorem
+NONE
+
+MATH477
+3
+Data Compression & Source Coding
+W
+NONE
+MATH474
+NONE
+STAT353
+Topics include: arithmetic coding, universal lossless coding, Lempel-Ziv and related dictionary based methods, rate distortion theory, scalar and vector quantization, predictive and transform coding, applications to speech and image coding.
+NONE
+
+MATH497
+3
+Topics in Mathematics IV
+NO
+NONE
+VARIES
+NONE
+NONE
+An important topic in mathematics not covered in any other courses.
+NONE
+
+MATH498
+3
+Topics in Mathematics V
+NO
+NONE
+VARIES
+NONE
+NONE
+An important topic in mathematics not covered in any other courses.
+NONE
+
+MATH499
+6
+Introduction to Topology
+FW
+NONE
+VARIES
+NONE
+NONE
+An important topic in mathematics not covered in any other courses.
+NONE
+
+STAT263
+3
+Introduction to Statistics
+F
+OR BIOL342 CHEE209 ECON250 GPHY247 KNPE251 NURS323 POLS385 PSYC202 SOCY211 STAT263 STAT267 STAT367 COMM162
+NONE
+NONE
+NONE
+A basic course in statistical methods with the necessary probability included. Topics include probability models, random variables, distributions, estimation, hypothesis testing, elementary nonparametric methods.
+NONE
+
+STAT268
+3
+Statistics & Probability I
+F
+STAT351
+OR MATH120 MATH121 MATH122 MATH124
+MATH221 MATH280
+NONE
+Basic ideas of probability theory such as random experiments, probabilities, random variables, expected values, independent events, joint distributions, conditional expectations, moment generating functions. Main results of probability theory including Chebyshev�s inequality, law of large numbers, central limit theorem. Introduction to statistical computing.
+NONE
+
+STAT269
+3
+Statistics & Probability II
+W
+NONE
+OR MATH221 MATH280 OR STAT268 STAT351
+NONE
+NONE
+Basic techniques of statistical estimation such as best unbiased estimates, moment estimates, maximum likelihood. Bayesian methods. Hypotheses testing. Classical distributions such as the t-distribution, F-distribution, beta distribution. These methods will be illustrated by simple linear regression. Statistical computing.
+NONE
+
+STAT351
+3
+Probability I
+F
+STAT268
+NONE
+OR MATH221 MATH280
+NONE
+Probability theory; probability models; random variables; jointly distributed random variables; transformations and generating functions. Inequalities and limit laws. Distributions: binomial, Poisson, exponential, gamma, normal. Applications: elementary stochastic processes, time-to-failure models, binary communication channels with Gaussian noise.
+NONE
+
+STAT353
+3
+Probability II
+W
+NONE
+OR STAT268 STAT351 OR MATH110 MATH111 MATH112 MATH281
+NONE
+NONE
+Intermediate probability theory as a basis for further study in mathematical statistics and stochastic processes; probability measures, expectations; modes of convergence of sequences of random variables; conditional expectations; independent systems of random variables; Gaussian systems; characteristic functions; Law of large numbers, Central limit theory; some notions of dependence.
+NONE
+
+STAT361
+3
+Applied Methods in Statistics I
+F
+ECON351
+OR STAT268 STAT351 OR MATH110 MATH111 MATH112 OR STAT263 STAT267 STAT269 STAT367
+NONE
+NONE
+A detailed study of simple and multiple linear regression, residuals and model adequacy. The least squares solution for the general linear regression model. Analysis of variance for regression and simple designed experiments; analysis of categorical data.
+NONE
+
+STAT455
+3
+Stochastic Processes & Applications
+F
+NONE
+STAT353
+NONE
+NONE
+Markov chains, birth and death processes, random walk problems, elementary renewal theory, Markov processes, Brownian motion and Poisson processes, queuing theory, branching processes. 
+NONE
+
+STAT456
+3
+Bayesian Analysis
+F
+NONE
+STAT463
+NONE
+NONE
+An introduction to Bayesian analysis and decision theory; elements of decision theory; Bayesian point estimation, set estimation, and hypothesis testing; special priors; computations for Bayesian analysis.
+NONE
+
+STAT457
+3
+Statistical Computing
+W
+NONE
+OR STAT351 ECON351
+NONE
+NONE
+Introduction to the theory and application of statistical algorithms. Topics include classification, smoothing, model selection, optimization, sampling, supervised and unsupervised learning.
+NONE
+
+STAT462
+3
+Computational Data Analysis
+F
+NONE
+NONE
+OR STAT361 ECON351
+NONE
+Introduction to the statistical packages SAS and R; classification; spline and smoothing spline; regularization, ridge regression, and Lasso; model selection; resampling methods; importance sampling; Markov chain Monte Carlo; Metropolis-Hasting algorithm; Gibbs sampling; optimization
+NONE
+
+STAT463
+3
+Fundamentals of Statistical Inference
+F
+NONE
+STAT269
+NONE
+STAT353
+Decision theory and Bayesian inference; principles of optimal statistical procedures; maximum likelihood principle; large sample theory for maximum likelihood estimates; principles of hypotheses testing and the Neyman-Pearson theory; generalized likelihood ratio tests; the chi-square, t, F and other distributions.
+NONE
+
+STAT464
+3
+Discrete Time Series Analysis
+W
+NONE
+OR STAT361 ECON251
+NONE
+NONE
+Autocorrelation and autocovariance, stationarity; ARIMA models; model identification and forecasting; spectral analysis. Applications to biological, physical and economic data.
+NONE
+
+STAT465
+3
+Quality Management
+NO
+NONE
+OR STAT263 STAT267 STAT269 STAT367
+NONE
+NONE
+An overview of the statistical and lean manufacturing tools and techniques used in the measurement and improvement of quality in business, government and industry today. Topics include management and planning tools, Six Sigma approach, statistical process charting, process capability analysis, measurement system analysis and factorial and fractional factorial design of experiments.
+NONE
+
+STAT466
+3
+Statistical Programming with SAS and Applications
+F
+NONE
+OR STAT263 STAT269
+NONE
+NONE
+Introduction to the basic knowledge in programming, data management, and exploratory data analysis using SAS software: data manipulation and management; output delivery system; advanced text file generation, statistical procedures and data analysis, macro language, structure query language, and SAS applications in clinical trial, administrative financial data.
+NONE
+
+STAT471
+3
+Sampling & Experimental Design
+W
+NONE
+STAT463 OR STAT361 ECON351
+NONE
+NONE
+Simple random sampling; Unequal probability sampling; Stratified sampling; Cluster sampling; Multi-stage sampling; Analysis of variance and covariance; Block designs; Fractional factorial designs; Split-plot designs; Response surface methodology; Robust parameter designs for products and process improvement. 
+NONE
+
+STAT473
+3
+Generalized Linear Models
+W
+NONE
+STAT463 OR STAT361 ECON351
+NONE
+NONE
+An introduction to advanced regression methods for binary, categorical, and count data. Major topics include maximumlikelihood method, binomial and Poisson regression, contingency tables, log linear models, and random effect models. The generalized linear models will be discussed both in theory and in applications to real data from a variety of sources
+NONE
+
+STAT486
+3
+Survival Analysis
+W
+NONE
+STAT463 OR STAT361 ECON351
+NONE
+STAT462
+Introduces the theory and application of survival analysis: survival distributions and their applications, parametric and nonparametric methods, proportional hazards models, counting process and proportional hazards regression, planning and designing clinical trials
+NONE
+
+STAT499
+3
+Topics in Statistics
+NO
+STAT505
+VARIES
+NONE
+NONE
+An important topic in statistics not covered in any other courses.
+NONE
+
+STAT506
+3
+Topics in Statistics II
+NO
+NONE
+VARIES
+NONE
+NONE
+An important topic in statistics not covered in any other courses.
+NONE
+
+ENDFILE

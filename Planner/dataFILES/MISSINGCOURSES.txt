@@ -1,0 +1,1100 @@
+APSC142
+3
+Introduction to Computer Programming for Engineers
+F/W
+NONE
+NONE
+NONE
+NONE
+This course introduces concepts, theory and practice of computer programming. Implementation uses microcomputers. The emphasis is on the design of correct and efficient algorithms and on programming style. Applications are made to engineering problems. NOTE: The fall term delivery of this course is intended for students in the ECE direct-entry program, and enrolment in this term will require permission of the Associate Dean (Academic).
+NONE	
+
+APSC143
+3
+Introduction to Computer Programming for Engineers
+F
+NONE
+NONE
+NONE
+NONE
+This course introduces concepts, theory and practice of computer programming. Implementation uses microcomputers. The emphasis is on the design of correct and efficient algorithms and on programming style. Applications are made to engineering problems.
+none
+
+APSC171
+3
+Calculus I
+F
+NONE
+NONE
+NONE
+NONE
+Graphs and derivatives of vector-valued functions; related applications.  Implicit derivatives and related rate applications. Fundamental Theorem of Calculus, Riemann integral; applications to problems involving areas, volumes, mass, charge, work, etc. Integration by substitution, by parts, and partial fractions.  Introduction to second-order differential equations and complex numbers.
+NONE
+
+APSC172
+3
+Calculus II
+W
+NONE
+APSC171
+NONE
+NONE
+This course continues calculus concepts from APSC 171, including space curves, speed, and velocity. Functions of several variables, partial derivatives, differentials, error estimates, gradient, maxima and minima. Double and triple integrals, polar and cylindrical coordinates; applications to mass, center of mass, moment. Series, power series; Taylor polynomial approximations, error analysis.
+NONE
+
+APSC174
+3
+W
+Introduction to Linear Algebra
+NONE
+NONE
+NONE
+NONE
+Systems of linear equations; real vectors spaces and subspaces; linear combinations and linear spans; linear dependence and linear independence; applications to systems of linear equations and their solution via Gaussian elimination; bases and dimension of real vector spaces; linear transformations, range, kernel and Rank-Nullity theorem; matrix representation of a linear transformation; composition of linear transformations and matrix multiplication; invertible matrices and determinants; eigenvalues and eigenvectors of square matrices. Applications of the course material to engineering systems are illustrated.
+NONE
+
+COMM161
+3
+Introduction to Mathematical Analysis for Management
+N/A
+NONE
+NONE
+NONE
+NONE
+This course is designed to enhance student ability to apply advanced mathematical techniques including: linear algebra, differential and integral calculus, optimization, probability theory and computer modeling to tackle a wide range of managerial problems. It is assumed that students have taken Ontario Grade 12 calculus or its equivalent.
+NONE
+
+COMM162
+3
+Managerial Statistics
+N/A
+ECON250 PSYC202 STAT162 STAT163 STAT263 PHED351
+NONE
+NONE
+NONE
+NONE
+This course develops students’ capabilities for analyzing and drawing conclusions from data. Course coverage will include probability, probability models, statistical inference, and a thorough grounding in simple and multiple regression. Topics will be illustrated with appropriate examples, many supported by spreadsheet methods.
+NONE
+
+COMM392
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+ELEC278
+4
+Fundamentals of Information Structures
+F
+CISC235
+OR APSC142 APSC143
+NONE
+NONE
+Fundamentals of Data Structures and Algorithms: arrays, linked lists, stacks, queues, deques, asymptotic notation, hash and scatter tables, recursion, trees and search trees, heaps and priority queues, sorting, and graphs. Advanced programming in the C language. Introduction to object oriented programming concepts in the context of data structures.
+NONE
+
+CISC333
+3
+Introduction to Data Mining
+F
+NONE
+CISC121 CISC203 STAT100+ OR MATH110 MATH111 MATH112
+NONE
+NONE
+Supervised and unsupervised learning, neural networks, support-vector machines, decision trees, metric-based clustering, distribution-based clustering, rule-based techniques, genetic algorithms. Applications to information retrieval, web mining, customer-relationship management, recommender systems, science and engineering.
+The main objective of this course is ensure that students know enough about the algorithms, strengths and limitations of mainstream data-mining techniques that they can use data-mining software appropriately, and can understand the results that are produced. In particular, they should be able to see how to model a real-world problem, choose appropriate algorithms, analyse the results, and explain their implications for the original problem. A smaller objective is to make students aware that not all problems in computing have a single cut-and-dried, correct solution.
+
+CMPE333
+3
+Data Analytics
+F
+CISC251 CISC333
+OR APSC142 APSC143
+NONE
+NONE
+Supervised and unsupervised learning, neural networks, support-vector machines, decision trees, metric-based clustering, distribution-based clustering, rule-based techniques, genetic algorithms. Applications to information retrieval, web mining, customer-relationship management, recommender systems, science and engineering.
+The main objective of this course is ensure that students know enough about the algorithms, strengths and limitations of mainstream data-mining techniques that they can use data-mining software appropriately, and can understand the results that are produced. In particular, they should be able to see how to model a real-world problem, choose appropriate algorithms, analyse the results, and explain their implications for the original problem. A smaller objective is to make students aware that not all problems in computing have a single cut-and-dried, correct solution.
+
+ELEC377
+3
+Operating Systems
+F
+CMPE324 CISC324
+OR ELEC274 CISC221 OR ELEC278 CISC235
+NONE
+NONE
+Operating systems for conventional shared memory computers. System services and system calls, concurrent processes and scheduling, synchronization and communication, deadlock. File systems and protection, memory management and virtual memory, device management and drivers. Unix operating system. Real-time and distributed systems. Security.
+NONE
+
+ELEC470
+3
+Computer System Architecture
+W
+NONE
+ELEC371 OR ELECT274 CISC221
+NONE
+NONE
+This course covers advanced topics in computer architecture with a quantitative perspective. Topics include: instruction set design; memory hierarchy design; instruction-level parallelism (ILP), pipelining, superscalar processors, hardware multithreading; thread-level parallelism (TLP), multiprocessors, cache coherency; clusters; introduction to shared-memory and message-passing parallel programming; data-level parallelism (DLP), GPU architectures.
+NONE
+
+ELEC471
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+ELEC476
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+ELEC478
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+BCHM218
+3
+Molecular Biology
+F/S
+MBIO218
+BIOL102 CHEM112
+NONE
+NONE
+Molecular Biology is a foundational course to the study of molecular biology, focusing on the structural and functional properties and relationships of DNA, RNA and proteins, particularly the processes required to reliably pass genetic information from DNA to RNA to protein, and from one generation to the next.
+NONE
+
+BCHM315
+3
+Proteins and Enzymes
+F
+BCHM310
+SEE COURSE PAGE
+NONE
+NONE
+Principles of protein biochemistry, enzymology, and protein engineering.
+NONE
+
+BIOL102
+3
+INTRODUCTORY BIOLOGY OF CELLS
+F/W/S
+NONE
+NONE
+NONE
+4UBIOLOGY 4UCHEMISTRY
+An introduction to the basic themes and concepts of modern biology spanning organizational levels from molecules to cells in an evolutionary context.
+NONE
+
+BIOL103
+3
+INTRODUCTORY BIOLOGY OF ORGANISMS
+F/W/S
+NONE
+NONE
+NONE
+BIOL102
+An introduction to the basic themes and concepts of modern biology spanning organizational levels from organisms to ecosystems in an evolutionary context.
+NONE
+
+BIOL110
+3
+HUMAN GENETICS AND EVOLUTION
+F
+BIOL102 BIOL103
+NONE
+NONE
+NONE
+Introductory genetics and evolutionary processes as they relate to the human condition - genetic diseases, medical techniques, inheritance and ethical issues such as cloning and genetically modified foods.
+NONE
+
+BIOL111
+3
+ECOLOGY AND THE ENVIRONMENT
+W
+BIOL300 BIOL302 BIOL303
+NONE
+NONE
+NONE
+Introduces the basic concepts of ecology and shows how they relate to environmental issues such as population growth, resource management, biodiversity, agriculture, air and water pollution, energy, and climate change, and to solutions leading to a sustainable environment.
+NONE
+
+BIOL200
+3
+DIVERSITY OF LIFE
+W
+BIOL201 BIOL202
+NONE
+NONE
+BIOL102 BIOL103
+This course provides a phylogenetically based overview of biodiversity across the Tree of Life including viruses, archaea, bacteria, algae, fungi, plants, invertebrates and vertebrates. Patterns of organizational complexity and species diversity are explained in the context of evolutionary processes, structure-function relationships and ecology.
+NONE
+
+BIOL205
+3
+MENDELIAN AND MOLECULAR GENETICS
+F
+NONE
+BIOL102 BIOL103
+NONE
+NONE
+An introduction to Mendelian and molecular genetics covering the basic mechanisms of genetic transmission, gene structure and function, as well as the application of molecular genetics in medicine and biotechnology. 
+NONE
+
+BIOL206
+3
+EVOLUTIONARY GENETICS
+W
+NONE
+BIOL205
+NONE
+BIOL201 BIOL202
+An introduction to the genetic mechanisms of population differentiation and evolutionary change - from molecules to species. The genetical theory of evolution is also applied to problems involving conservation, biotechnology and the evolution of disease.
+NONE
+
+BIOL212
+3
+SCIENTIFIC METHODS IN BIOLOGY
+F/W
+NONE
+BIOL102 BIOL103
+NONE
+NONE
+A hands on laboratory course that establishes the fundamentals of scientific investigation and applies then to selected biological questions. Students will learn to develop hypotheses, design and execute experiments, and to analyze and present results. There will be four modules structured as: Cell, Organism, Population and Ecosystem.
+NONE
+
+BIOL243
+3
+INTRODUCTION TO STATISTICS
+F
+CHEE209 ECON250 GPHY247 KNPE251 NURS323 PHED251 POLS385 PSYC202 SOCY211 STAT263 STAT267 STAT367 COMM162 STAT269
+NONE
+NONE
+NONE
+An introduction to the analysis of data from real life situations. Covers study design, descriptive and inferential statistics.  Topics include probability, t-tests, regression, Chi-square tests, analysis of variance. Emphasis is in the foundation of statistical inference and practical application of statistical methods using statistical software.
+NONE
+
+BIOL300
+3
+ECOLOGY
+F
+BIOL302 BIOL303
+BIOL206 OR BIOL200 BIOL201 BIOL202
+OR BIOL243 PSYC202 STAT269
+NONE
+Covers the major concepts at the scales of individual life history, population, communication and ecosystem. This includes life history strategies, population regulation, species interactions, community structure, elemental cycles and energy flow. Includes field and lab activities with collection, analysis and interpretation of ecological data.
+NONE
+
+BIOL307
+3
+FIELD BIOLOGY I
+F/W/S
+NONE
+BIOL102 BIOL103
+NONE
+NONE
+Two weeks of field work plus written assignments in one or two areas of study to be done when specialized modules are available in May, July, August or February. Studies may include ecology of birds, fish, insects, small mammals, plants, tundra and taiga, lakes and caves.
+NONE
+
+BIOL315
+3
+PLANTS AND HUMAN CULTURE
+W
+NONE
+BIOL102 BIOL103 BIOL201
+NONE
+NONE
+Human civilization depends on plants. We have changed them and they have changed us. This course investigates the biology and evolution of valuable economic plants, the science of plant domestication and genetic manipulation, and how our interactions with plants have altered the economy, politics, and sociology of human civilization.
+NONE
+
+BIOL316
+3
+FISHERIES BIOLOGY
+W
+NONE
+BIOL103 BIOL202
+NONE
+NONE
+An introduction to the basic principles of fisheries biology and examination of the biological foundations of current problems affecting the world’s fisheries, with an emphasis on developing sound science-based strategies to resolve these problems.
+NONE
+
+BIOL317
+3
+FIELD BIOLOGY II
+F/W/S
+NONE
+BIOL307
+NONE
+NONE
+Two weeks of field work plus written assignments in one or two areas of study to be done when specialized modules are available in May, July, August or February. Studies may include ecology of birds, fish, insects, small mammals, plants, tundra and taiga, lakes and caves.
+NONE
+
+BIOL319
+3
+INTRODUCTION TO ETHNOBOTANY
+NO
+NONE
+BIOL102 BIOL103
+NONE
+BIOL201
+Ethnobotany is the study of the relationships that exist between indigenous cultures and local flora. Case studies will be presented to examine the various categories of plant use, the importance of traditional knowledge to Western culture, and the role of plant conservation and cultural sustainability.
+NONE
+
+BIOL321
+3
+ANIMAL BEHAVIOUR
+W
+NONE
+NONE
+OR BIOL200 BIOL201 BIOL202 OR BIOL205 BIOL206
+BIOL200
+An evolutionary approach to the study of animal behaviour. This course explores processes and patterns in behaviour, with emphasis on perception, communication, foraging, spacing, reproduction and social behaviour in a variety of animals. Methods of studying and analyzing behaviour are explored through laboratory exercises.
+NONE
+
+BIOL322
+3
+ENVIRONMENTAL PHYSIOLOGY OF ANIMALS
+W
+NONE
+BIOL339
+NONE
+NONE
+A comparative examination of interaction between animals and their environment including: physiological adaptations to extreme environments (e.g., arctic, desert); responses to acute and chronic environmental stress (e.g., hypoxia, temperature); environmental regulation of normal physiological processes; uses of comparative models in other fields.
+NONE
+
+BIOL323
+3
+VERTEBRATE DIVERSITY AND EVOLUTION
+NO
+NONE
+BIOL201 BIOL202 BIOL206
+NONE
+NONE
+Vertebrate biodiversity including characteristics and adaptations of the major classes of the living vertebrates; major environmental and geological changes associated with vertebrate evolution.
+NONE
+
+BIOL327
+3
+FIELD BIOLOGY III
+F/W/S
+NONE
+BIOL307 BIOL317
+NONE
+NONE
+Two weeks of field work plus written assignments in one or two areas of study to be done when specialized modules are available in May, July, August or February. Studies may include ecology of birds, fish, insects, small mammals, plants, tundra and taiga, lakes and caves. NOTE Field trip: estimated cost of each module and the schedule of offerings for each year are available in January.
+NONE
+
+BIOL330
+3
+CELL BIOLOGY
+F
+NONE
+OR BIOL205 BCHM218
+NONE
+NONE
+An introduction to the cellular basis of biological variation. The course explores the control of cell function exerted by the nucleus, the pathways for building and fuelling cells, and the control of integrative cellular events.
+NONE
+
+BIOL331
+3
+ANALYTICAL GENOMICS
+W
+NONE
+OR BIOL205 BCHM218
+NONE
+NONE
+This course will explore the structure of genomes and the nature and origin of gene families as well as large scale functional genomics methods for analysis of novel gene function.
+
+BIOL333
+3
+APPLIED BIOLOGY
+F
+NONE
+BIOL205 OR BIOL200 BIOL201
+NONE
+NONE
+The course explores biological contributions to society in the fields of environmental assessment and management, materials and food production, and biotechnology. Emphasis is placed on understanding of applied processes in relevant service and production industries.
+NONE
+
+BIOL334
+3
+COMPARATIVE BIOCHEMISTRY
+W
+NONE
+BIOL103 CHECM112 OR BIOL205 BCHM218
+NONE
+NONE
+A survey of selected topics including: general principles of enzymology; bioenergetics; metabolism and its control; the importance of proteomic and enzyme research in functional genomics and biotechnology; mechanisms whereby animals and plants acclimate at the biochemical level to environmental stress. NOTE Preference will be given to students registered in a Biology degree program or who require this course for their program.
+NONE
+
+BIOL335
+3
+LIMNOLOGY AND AQUATIC ECOLOGY
+F
+NONE
+CHEM112
+NONE
+OR BIOL200 BIOL201 BIOL202
+Physics, chemistry and biology of freshwater lakes. Emphasis on: morphometry; light and temperature; water chemistry in relation to nutrients; physiological requirements; composition and interaction of algal and invertebrate populations; eutrophication; pollution; environmental change.
+NONE
+
+BIOL339
+3
+ANIMAL PHYSIOLOGY
+F
+NONE
+OR BIOL205 BCHM218
+NONE
+NONE
+Focus is placed on adaptive physiology and integrative function (nervous and hormonal, movement, excretion, circulation and digestion) with examples selected from various phylogenetic levels as appropriate.
+NONE
+
+BIOL341
+3
+PLANT PHYSIOLOGY
+W
+NONE
+OR BIOL205 BCHM218
+NONE
+NONE
+The course examines various aspects of plant cell biology, physiology, and biochemistry including carbon and nitrogen metabolism (photosynthesis, respiration, etc.), water relations, mineral nutrition, response to environmental stress, roles of plant hormones, plant biotechnology.
+NONE
+
+BIOL343
+3
+DATA ANALYSIS FOR BIOLOGISTS
+W
+NONE
+OR BIOL243 PSYC202 STAT269
+NONE
+NONE
+Advanced topics in using R for data management, exploratory data analysis, data visualization, and statistical analysis using the general linear model, with particular focus on statistical literacy and biological examples from both laboratory and field research.
+NONE
+
+BIOL350
+3
+EVOLUTION AND HUMAN AFFAIRS
+F/W
+NONE
+NONE
+NONE
+NONE
+An exploration of how evolutionary thinking can affect our understanding of our lives, our species, and our ability to share the planet with other species.
+NONE
+
+BIOL360
+3
+BIOTECHNOLOGY AND SOCIETY
+NO
+BIOL507
+OR BIOL205 BCHM218
+NONE
+NONE
+The contributions and effects of biotechnology on humanity will be explored from the perspective of their impacts on society including moral and ethical issues. Biotechnological contributions to society to be explored will include those in medicine, industry, and agriculture.
+NONE
+
+BIOL369
+3
+SEX AND EVOLUTION
+F
+BIOL210
+BIOL102 BIOL103 OR BIOL201 BIOL202 BIOL205 BIOL206
+NONE
+BIOL206
+Why sex? The evolutionary origins and consequences of sex and sexual reproduction. Topics include costs and benefits of sexual reproduction, the evolution and coevolution of sexes, gametes and genitalia, mating systems, gender differences and sex determination throughout the biotic world.
+NONE
+
+CHEM112
+3
+GENERAL CHEMISTRY
+F/W
+NONE
+NONE
+NONE
+NONE
+A survey of modern chemistry: molecular structure, bonding, phases of matter, thermodynamics, electrochemistry, equilibrium, kinetics, polymers, organic and biochemistry. Using information technology, laboratories and formulation of problem-solving strategies, students will develop an appreciation for the relevance of chemistry to the solution of modern-day societal challenges.
+NONE
+
+CHEM281
+3
+General Organic Chemistry I
+F/S
+CHEM212
+OR (CHEM112 CHEM114)
+NONE
+NONE
+An introduction to the basic principles of organic chemistry with emphasis on bonding, stereochemistry, reaction intermediates and reaction mechanisms, and structure-reactivity correlations. Intended for students in biological and life sciences. Students in chemistry or biochemistry programs should not enrol in this course.
+NONE
+
+CHEE209
+3
+Analysis of Process Data
+N/A
+NONE
+APSC171 APSC172 APSC174
+NONE
+NONE
+Statistical methods for analyzing and interpreting process data are discussed, with special emphasis on techniques for continuous improvement of process operations. Topics include: role of data in assessing process operation, identifying major problems, graphical and numerical summaries, principles of valid inference, probability distributions for discrete and continuous data, process capability, comparing process performance to target values, comparing performances of two processes, control charts, and an introduction to linear regression analysis.
+NONE
+
+ECON250
+3
+Introductory Statistics
+F/W
+NONE
+OR ECON110 ECON112
+OR MATH120 MATH121 MATH124 MATH126
+NONE
+Statistical methods as used in economics. This course introduces statistical hypothesis testing and covers basic methods as far as linear regression analysis.
+NONE
+
+GPHY247
+3
+Introduction to Statistics
+N/A
+NONE
+OR ECON110 ECON112
+OR MATH120 MATH121 MATH124 MATH126
+NONE
+No description currently posted
+NONE
+
+KNPE251
+3
+Introduction to Statistics
+F
+BIOL243 CHEE209 COMM162 ECON250 GPHY247 NURS323 POLS385 PSYC202 SOCY211 STAT263 STAT267 STAT367
+NONE
+NONE
+NONE
+The purpose of this course is to improve your numeracy and critical thinking skills to help you make better decisions in both your personal life and your professional life. To achieve this, you will learn about probability, how to make sense of raw data, how best to describe data to others, and how to solve problems and test predictions using statistics.
+NONE
+
+NURS323
+3
+Introduction to Statistics
+F
+BIOL243 CHEE209 COMM162 ECON250 GPHY247 POLS385 PSYC202 SOCY211 STAT263 STAT267 STAT367
+NONE
+NONE
+NONE
+The purpose of this course is to improve your numeracy and critical thinking skills to help you make better decisions in both your personal and professional life. To achieve this, you will learn about probability, how to make sense of raw data, how best to describe data to others, and how to solve problems and test predictions using statistics.
+NONE
+
+PSYC202
+3
+Introduction to Statistics
+F
+BIOL243 CHEE209 COMM162 ECON250 GPHY247 NURS323 POLS385 SOCY211 STAT263 STAT267 STAT367
+NONE
+NONE
+NONE
+The purpose of this course is to improve your numeracy and critical thinking skills to help you make better decisions in both your personal and professional life. To achieve this, you will learn about probability, how to make sense of raw data, how best to describe data to others, and how to solve problems and test predictions using statistics.
+NONE
+
+POLS385
+3
+Introduction to Statistics
+F
+BIOL243 CHEE209 COMM162 ECON250 GPHY247 NURS323 PSYC202 SOCY211 STAT263 STAT267 STAT367
+NONE
+NONE
+NONE
+The purpose of this course is to improve your numeracy and critical thinking skills to help you make better decisions in both your personal and professional life. To achieve this, you will learn about probability, how to make sense of raw data, how best to describe data to others, and how to solve problems and test predictions using statistics.
+NONE
+
+SOCY211
+3
+SOCIAL STATISTICS
+W
+BIOL243 CHEE209 COMM162 ECON250 GPHY247 NURS323 PSYC202 STAT263 STAT267 STAT367
+NONE
+NONE
+NONE
+This course will provide you with skills necessary for conducting quantitative research, including a review of principles related to measurement/survey design and hypothesis development in social science research. You will also learn how to locate and download datasets from online databases, and how to prepare a dataset for analysis. The course will present a variety of statistical principles and techniques, and their application in social research; as well as it will describe how to interpret statistical findings. These techniques and principles include descriptive statistics such as frequency tables, measures of central tendency, and cross-tabulations; as well as hypothesis testing using measures of association, t-test/ANOVA, and correlation and regression (both linear and logistic). The course will also demonstrate many functionalities of SPSS statistical software in social science research.
+NONE
+
+STAM200
+3
+INTRODUCTION TO STATISTICS
+F
+CHEE209 ECON250 GPHY247 KNPE251 NURS323 PHED251 POLS385 SYC202 SOCY211 STAT263 STAT267 STAT367 COMM162 STAT269
+NONE
+NONE
+NONE
+An introduction to the analysis of data from real life situations. Covers study design, descriptive and inferential statistics.  Topics include probability, t-tests, regression, Chi-square tests, analysis of variance. Emphasis is in the foundation of statistical inference and practical application of statistical methods using statistical software.
+NONE
+
+STAT267
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+STAT367
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+NO LONGER OFFERED
+NONE
+
+CHEM282
+3
+General Organic Chemistry II
+W
+NONE
+CHEM281
+NONE
+NONE
+A continuation from CHEM 281 intended for students in biological life sciences, life sciences, and other programs taking no further courses in organic chemistry. Organic molecules and their reactions; relevance to biological systems. Illustrations using biomolecules such as carbohydrates, amino acids and proteins, lipids, and nucleic acids. The laboratory affords experience in elementary organic syntheses.
+NONE
+
+CHEM285
+3
+General Organic Chemistry II
+S
+CHEM223 CHEM285
+CHEM281
+NONE
+NONE
+A continuation from CHEM 281/3.0 intended for students in biological sciences, and other plans taking no further courses in organic chemistry. Organic molecules and their reactions; relevance to biological systems. Illustrations using biomolecules such as carbohydrates, amino acids and proteins, lipids, and nucleic acids. The virtual laboratory provides knowledge of elementary organic syntheses.
+NONE
+
+PHGY215
+3
+Principles of Mammalian Physiology I
+F/W/S
+IDIS150 PHGY210 PHGY214 KNPE125 KNPE225
+NONE
+NONE
+NONE
+The focus of this course is on the central and peripheral nervous systems, muscle physiology, the heart, and the vascular system. This course is intended to be paired with PHGY 216/3.0 to achieve an introductory physiology full course (6.0 unit) equivalent and designed to meet the needs of those wishing to pursue professional programs. This is an online course that makes use of six online learning modules, supplemented with discussion forums.
+NONE
+
+PHGY216
+3
+Principles of Mammalian Physiology II
+W/S
+IDIS150 PHGY210 PHGY214 KNPE125 KNPE225
+NONE
+NONE
+PHGY215
+The focus of this course is the physiology of the respiratory, renal, gastrointestinal, endocrine, and reproductive systems. This course is intended to be paired with PHGY 215/3.0 to achieve an introductory physiology full course (6.0 unit) equivalent and designed to meet the needs of those wishing to pursue professional programs. This is an online course that makes use of six online learning modules, supplemented with discussion forums.
+NONE
+
+PHGY214
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+This course is no longer offered
+NONE
+
+COMM365
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+This course is no longer offered
+NONE
+
+MATH424
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+This course is no longer offered
+NONE
+
+MATH481
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+This course is no longer offered
+NONE
+
+MATH302
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+This course is no longer offered
+NONE
+
+CISC426
+3
+Real-Time Systems
+N/A
+NONE
+CISC324 CISC327
+NONE
+NONE
+Design and implementation of real-time embedded applications. Specifying timing properties: formal and semi-formal methods; soft real-time versus hard real-time. Design notations; language constructs. Real-time operating systems. Abstract device interfaces
+NONE
+
+CISC266
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+This course is no longer offered
+NONE
+
+MECH380
+0
+NO LONGER OFFERED
+NO
+NONE
+NONE
+NONE
+NONE
+This course is no longer offered
+NONE
+
+PHIL259
+3
+Critical Thinking
+N/A
+NONE
+NONE
+NONE
+NONE
+A discussion of the general principles of reasonable discourse, with a focus on persuasive and cogent writing
+NONE
+
+WRIT125
+3
+Fundamentals of Academic Essay Writing
+N/A
+NONE
+NONE
+NONE
+NONE
+A study of the basic principles of academic writing, including a series of assignments that emphasize logical organization, stylistic clarity, and grammatical precision.
+NONE
+
+WRIT173
+3
+Effective Writing II
+N/A
+NONE
+WRIT125
+NONE
+NONE
+An intensive study of the essay-writing process, from techniques of prewriting and outlining through revising for grammatical correctness and argumentative clarity, with particular emphasis on critical reading skills. Enrolment is limited
+NONE
+
+APSC221
+3
+Economics and Business Practices in Engineering
+F/W/S
+APSC321 COMM244
+NONE
+NONE
+NONE
+This course will provide the student in the Engineering program with the ability to appropriately incorporate selected economic and business practices into the practice of engineering. The practices covered include: business planning for the enterprise, enterprise economic analysis, project management process, project economic analysis, risk analysis and management, quality management and change management. Assignments and examples are based on situations from engineering based industries. 
+NONE
+
+COMM200
+3
+Business Fundamentals
+N/A
+COMM600
+NONE
+NONE
+NONE
+NONE
+This course will develop an appreciation of the role of the manager and business in society. It will discuss Canadian and global trends and issues - political, economic, technological, and ethical - that affect business and management. The course will introduce the student to the nature of the modern corporate enterprise, large and small, and begin the building of business analysis skills. This course is not open to students enrolled in the Commerce Program.
+NONE
+
+COMM244
+3
+Project Management: An Engineering Economics Perspective
+N/A
+NONE
+NONE
+NONE
+NONE
+This is an introductory course in Project Management and Engineering Economics.  Through lectures, discussions of case studies, group assignments and reading from selected texts, students will address project management-related problems.  Factors underlying the success and failure of projects will be highlighted, paying particular attention to the management of requirements, budgets and time.  The students will have the chance to explore people issues by working in teams during group assignments.  Economic decision analysis is a key skill required by Project managers, and it represents the main focus of the course.  Examples in engineering economics will be used to introduce the students to the concepts of time value of money, discrete and multiple compounding, effects of inflation and methods for comparing alternative investments including replacement, make/buy and lease/buy decisions.
+NONE
+
+COMM251
+3
+Organizational Behaviour
+N/A
+COMM651
+NONE
+NONE
+NONE
+This course introduces students to the study of human behaviour in organizations. The purpose is to provide a coherent account of the causes and consequences of organizational behaviour. Lectures, discussions, cases and exercises will be used to broaden the students' understanding of working environments. Whenever possible, students' own employment experiences will be drawn upon as a basis for understanding the concepts discussed.
+NONE
+
+LING100
+6
+Introduction to Linguistics
+FW
+NONE
+NONE
+NONE
+NONE
+This course provides an introduction to the linguistic study of language. Topics covered include phonetics, phonology, morphology, and syntax. The course focuses on universal characteristics of language and draws on examples from a variety of languages.
+NONE
+
+LING310
+3
+Phonetics
+N/A
+NONE
+LING100
+NONE
+NONE
+Principles and methods of modern generative phonology. Examination of the formal properties of the sound systems of languages. Current theoretical controversies as well as particular synchronic and diachronic problems in a variety of languages
+NONE
+
+LING320
+3
+PHONOLOGY
+N/A
+NONE
+LING100
+NONE
+NONE
+Principles and methods of modern generative phonology. Examination of the formal properties of the sound systems of languages. Current theoretical controversies as well as particular synchronic and diachronic problems in a variety of languages.
+NONE
+
+LING330
+3
+Morphology
+N/A
+NONE
+LING100
+NONE
+NONE
+This course provides a foundation in principles of morphological analysis. Topics covered include inflectional and derivational morphology as well as the morphology-syntax and morphology-phonology interfaces. Emphasis is placed on practical discovery method, and formal analysis and explanation.
+
+LING340
+3
+SYNTAX
+N/A
+NONE
+LING100
+NONE
+NONE
+This course provides a foundation in syntactic analysis and explanation. The course focuses on the relation between structure and meaning, and assumes the framework of Universal Grammar Theory. Topics covered include thematic roles, case, anaphora, NP movement and WH movement.
+NONE
+
+LING415
+3
+Semantics
+N/A
+NONE
+LING340
+NONE
+NONE
+NONE
+The aim of this course is to provide students with an understanding of the fundamental concepts and tools of analysis in semantics. Students will learn to recognize and identify different features of word meaning and a variety of semantic relations between words and sentences. The characteristics of logical relations and truth-functional semantics and the role these play in the interpretation of words and sentences will be discussed.
+NONE
+
+PHIL111
+6
+What is Philosophy?
+FW
+PHIL151
+NONE
+NONE
+NONE
+An introduction to philosophy through the examination of a number of classic philosophical works, with an evaluation of the positions and arguments offered in each. NOTE Students considering a Major or Medial Plan in PHIL are strongly urged to take PHIL 111/6.0 or PHIL 115/6.0 in their first year
+NONE
+
+PHIL115
+6
+Fundamental Questions
+FW
+NONE
+NONE
+NONE
+NONE
+Representative basic philosophical issues will be explored, such as: good and bad arguments, the source of moral obligation, the justification of knowledge claims, free will and determinism, the social enforcement of gender roles, taking responsibility for the environment, and the meaning of life.
+NONE
+
+PHIL260
+6
+Epistemology and Metaphysics
+FW
+NONE
+NONE
+NONE
+NONE
+An examination of the development of central debates in epistemology and metaphysics from the early modern period to the present. Focusing on the work of thinkers like Descartes, Kant, Wittgenstein and Quine, such questions as the nature and justification of knowledge, mind and body, personhood and community, truth and meaning will be discussed.
+NONE
+
+PHIL261
+3
+Philosophy of Mathematics
+N/A
+NONE
+NONE
+NONE
+NONE
+A discussion of some ontological and epistemological problems associated with mathematics.
+NONE
+
+PHIL270
+3
+Minds and Machines
+N/A
+NONE
+NONE
+NONE
+NONE
+A survey of the contribution of philosophy to the cognitive sciences. The focus will be on providing a synthesis of the different perspectives brought by each of the disciplines, in particular, cognitive psychology, computer science,neurophysics, and linguistics, through an investigation of how the various approaches ultimately frame and answer ourquestions about the mind.
+NONE
+
+PHIL311
+3
+Philosophy of Psychology
+N/A
+NONE
+PHIL250
+NONE
+NONE
+A philosophical understanding of the background to psychology. Topics may include the nature of mental representation, the place of ‘folk psychology,’ individualism in psychology, the nature of mental causation and explanation.
+NONE
+
+PHIL351
+3
+Philosophy of Mind
+N/A
+NONE
+PHIL250
+NONE
+NONE
+A discussion of concepts and issues in the philosophy of mind. Sample topics include identity, action, emotion, intention, belief and desire.
+NONE
+
+PHIL359
+3
+Philosophy of Language
+N/A
+NONE
+PHIL250
+NONE
+NONE
+Central issues include: the distinction between language and speech; the syntax/semantics/pragmatics trio; reference, denoting, names and descriptions; meaning, truth and verifiability; realism and anti-realism; linguistic forms of pragmatism, behaviourism, idealism, etc.
+NONE
+
+PHIL381
+3
+Philosophy of the Natural Sciences
+N/A
+NONE
+NONE
+NONE
+NONE
+Topics may include the nature of scientific method; the meaning of laws of nature; theoretical entities; scientific explanation; causality, induction, and probability.
+NONE
+
+PSYC100
+6
+Principles of Psychology
+FW
+PSYC101 PSYC102 PSYC103
+NONE
+NONE
+NONE
+An introductory survey of basic areas of psychology including perception, cognition, learning and motivation and their biological substrata. Also reviewed are child development, individual differences, social psychology and abnormal psychology. Research participation experience is provided for students on an individual voluntary basis. Students are encouraged to participate in up to five hours of research experimentation. The course is based on a blended model where on-line learning is supplemented with a weekly lecture and small-group learning lab.
+NONE
+
+PSYC203
+3
+Research Methods in Psychology
+N/A
+NONE
+PSYC202
+NONE
+NONE
+Lectures will focus on basic research methodologies. Labs will include the collection and statistical analysis of data, and the reporting of experimental findings. To introduce students to the breadth of psychological research, there will be a series of guest lectures in which professors present their own research.
+NONE
+
+PSYC215
+3
+Sensation and Perception
+N/A
+NONE
+PSYC100
+NONE
+NONE
+The course introduces sensory information processing and perception as well as methods used to study the relationship between the physical energy that is sensed (e.g. light and sound) and the subjective experience of objects and events. Mechanisms underlying perception of touch, body position, taste, smell, hearing, and vision are covered.
+NONE
+
+PSYC221
+3
+Cognitive Psychology
+N/A
+COGS200 COGS201 PSYC220
+PSYC100
+NONE
+NONE
+An introduction to the empirical study of mental processes. Topics include perception and attention, working memory, long-term memory, visual imagery, problem-solving, language, and decision-making.
+NONE
+
+PSYC271
+3
+Brain and Behaviour I
+N/A
+NSCI323 NSCI324 PSYC370
+PSYC100
+NONE
+NONE
+An introduction to behavioural neuroscience. The course primarily focuses on the basics of neuronal operation, functional neuroanatomy, neuropharmacology, and behavioral neuroscience methods. This will be followed by an examination of input (sensory) and output (motor) systems of the brain. Finally, topics relevant to lateralization of function and language will be covered.
+NONE

@@ -1,0 +1,805 @@
+CISC101
+3
+Elements of Computing Science
+S/F/W
+APSC142 APSC143 CISC110 CISC151
+NONE
+NONE
+NONE
+Introduction to algorithms: their definition, design, coding, and execution on computers. Intended for students who have no programming experience. All or most assignment work will be completed during lab time.
+Context: platforms, compilers, editors, development environments Basics of imperative programming: basic data types, constants, variables, expressions, assignments, basic input/output (terminal and files) Elementary control structures: selection, iteration Elementary data structures: arrays or lists, strings Scope, lifetime, local and global/static variables Procedures/functions, parameters Introduction to Computer Science: a taste of advanced applications and research issues
+
+CISC102
+3
+Discrete Mathematics for Computing I
+S/F/W
+CISC203
+NONE
+NONE
+NONE
+Introduction to mathematical discourse and proof methods. Sets, functions, sequences, and relations. Properties of the integers. Induction. Equivalence relations. Linear and partial orderings.
+Introduction to mathematical discourse Sets Integers and Induction Functions Relations
+
+CISC110
+3
+Elementary Computer Animation
+F
+APSC142 APSC143 CISC101 CISC151 CISC121
+NONE
+NONE
+NONE
+This course is designed to be an introduction to programming and Computer Science using the creation of visual art as the application. It is suitable for anyone wishing to learn programming in a fun, creative manner. This course can serve as an elective of interest to students in all areas of Arts and Science;
+Programming Concepts: variables, types, conditionals, loops, functions, parameters, lists, strings, modular programming, debugging, commenting, and files. Artistic Concepts: Pixels, color, interactivity, translation, rotation, scaling, motion (speed, direction, circular), and image manipulation.
+
+CISC121
+3
+Introduction to Computing Science I
+S/F/W
+NONE
+NONE
+OR CISC102 MATH110 MATH111 MATH112 MATH120 MATH121 MATH123 MATH124 MATH126 APSC171 APSC172 APSC174 COMM161 COMM162
+OR CISC101 CISC110 CISC151
+Introduction to design, analysis, and implementation of algorithms. Recursion, backtracking, and exits. Sequences. Elementary searching and sorting. Order-of-magnitude complexity. Documentation, iterative program development, translating natural language to code, testing and debugging.
+basic python software development process including translating natural language to code, documentation, debugging and testing searching and sorting computational complexity recursion
+
+CISC124
+3
+Introduction to Computing Science II
+S/F/W
+NONE
+CISC121
+OR CISC102 MATH110 MATH111 MATH112 MATH120 MATH121 MATH123 MATH124 MATH126 APSC171 APSC172 APSC174 COMM161 COMM162
+NONE
+Introduction to object-oriented design, architecture, and programming. Use of packages, class libraries, and interfaces. Encapsulation and representational abstraction. Inheritance. Polymorphic programming. Exception handling. Iterators. Introduction to a class design notation. Numerical computation. Applications in various areas.
+history and features of Java procedural Java, the Java API, good coding style numerical representation, IEEE 754 storage standard for floating point numbers, sources and effects of roundoff error and inaccuracy basic language features: exceptions, pointers, passing by reference what is an object?, encapsulation essential tools: Javadoc, JUnit testing intermediate language features: packages, modules, enums, inner classes, interfaces, anonymous classes, abstract classes advanced language features: inheritance, polymorphism. generic classes and methods, lambda functions, method references GUI construction with JavaFX
+
+CISC151
+3
+Elements of Computing with Data Analytics
+W
+APSC142 APSC143 CISC101 CISC151 CISC121
+NONE
+NONE
+NONE
+Introduction to algorithms: their definition, design, coding, and execution on computers, with applications drawn from data analytics, including simple prediction and clustering. Intended for students who have no programming experience. All or most assignment work will be completed during lab time. Basics of imperative programming: basic data types, constants, variables, expressions, assignments, basic input/output (terminal and files) Elementary control structures: selection, iteration Elementary data structures: arrays or lists, strings Scope, lifetime, local and global/static variables Procedures/functions, parameters Introduction to data analytics, analytic tasks (prediction, clustering, ranking), numeric and textual data Design and implementation of simple prediction algorithms (decision tree, k-nearest neighbour) Design and implementation of simple clustering algorithms (k-means, hierarchical clustering) Generating and understanding visualizations of data and models
+Basics of imperative programming: basic data types, constants, variables, expressions, assignments, basic input/output (terminal and files) Elementary control structures: selection, iteration Elementary data structures: arrays or lists, strings Scope, lifetime, local and global/static variables Procedures/functions, parameters Introduction to data analytics, analytic tasks (prediction, clustering, ranking), numeric and textual data
+Design and implementation of simple prediction algorithms (decision tree, k-nearest neighbour) Design and implementation of simple clustering algorithms (k-means, hierarchical clustering) Generating and understanding visualizations of data and models
+
+CISC181
+3
+Digital Societies
+F/W
+NONE
+NONE
+NONE
+NONE
+This introductory course provides a broad overview and ethical implications of technological topics and trends in the digital world such as the Internet of Things (IoT), Social Networks, Security and Privacy, Data Analytics, and Artificial Intelligence (AI). No programming experience is required.
+This course provides an introduction to various computer-based technological developments (e.g., Artificial Intelligence, Machine Learning, Data Analytics, Social Networks) and discusses their impact on different domains and aspects of modern life (e.g., personal and private; business and industry; education and science). Exact topics may evolve over time. The Evolution of the Digital Society Internet of Things Big Data, Data Analytics and Visualization Cloud Computing Automation, Artificial Intelligence, and Machine Learning Social Networks Cybersecurity and Privacy
+
+COCA201
+3
+Introduction to Computing and the Creative Arts
+W
+NONE
+OR ART100+ DRAM100+ FILM100+ MUSC100+
+CISC101 CISC110 CISC121
+NONE
+A multidisciplinary studio-oriented overview of computer-based applications in Art, Music, Drama and Film. History of human-computer interaction. Critical and philosophical issues. Animation. Virtual reality. Computer-aided design. Computer games. Enrolment is limited.
+Introduction. Multidisciplinary studies. Visual programming tools. History of human-computer interaction. Critical and philosophical issues New-media art. Electronic music. Computer applications in art history, preservation, analysis. Computer animation. Computing as theatre. Computer applications in theatre and dance. Industrial and architectural design. Design and implementation of computer games.
+
+CISC203
+3
+Discrete Mathematics for Computing Science
+F/W
+NONE
+CISC121 OR CISC102 MATH110
+NONE
+NONE
+Introduction to mathematical discourse and proof methods. Sets, functions, sequences, and relations. Properties of the integers. Introduction to graph theory. Introduction to combinatorics. propositions and connectives terminology: hypothesis, conclusion, converse, contrapositive quantifiers and predicates logical implications and equivalences
+Introduction to Mathematical Discourse (1 week) propositions and connectives terminology: hypothesis, conclusion, converse, contrapositive quantifiers and predicates logical implications and equivalences Sets (1 week) sets and subsets set operations and the laws of set theory counting and Venn diagrams countable and uncountable sets, orders of infinity Induction and other proof techniques (2 weeks) well-ordering recursive definitions the division algorithm the Euclidean GCD algorithm the Fundamental Theorem of Arithmetic Relations and Functions (3 weeks) Cartesian products and relations functions: plain, 1-to-1, and onto the pigeonhole principle bijections partial orders equivalence relations and partitions Enumeration (3 weeks) sum and product rule permutations and combinations inclusion and exclusion derangements Graph theory (2 weeks) graphs, subraphs, complements, trees Euler trails and circuits graph colouring
+
+CISC204
+3
+Logic for Computing Science
+F/W
+NONE
+CISC121 OR CISC102 CISC203 MATH110
+NONE
+NONE
+Elements of mathematical logic with computing applications. Formal proof systems for propositional and predicate logic. Interpretations, validity, and satisfiability. Introduction to soundness, completeness and decidability.
+Review of elementary logic (2 weeks) propositions connectives truth tables converse and contrapositive tautologies and satisfiability logical implications and equivalences, de Morgan's laws normal forms quantifiers and predicates free and bound variables, scope logical equivalences for quantifiers conventional (informal) proof methods by example: proof by cases, proof by contradiction, etc. terminology: hypothesis, conclusion, conjecture, corollary, lemma, etc. mathematical induction (on the natural numbers) Propositional logic (4 weeks) propositional logic as a formal language structural induction (induction on syntax) semantics of propositional logic satisfiability, semantic entailment and semantic equivalence the natural-deduction system for propositional logic: conjunction and implication, negation and disjunction proof of soundness of the system of propositional logic (outline) completeness of the system of propositional logic (definition and statement of result only) decidability of the system of propoitional logic (definition and statement of result only) Predicate logic (4 weeks) variables, quantifiers, terms and formulas substitution, variable capture, change of bound variable natural deduction rules for predicate logic: universal quantifier, existential quantifier, side conditions models, environments (assignments of values to variables) soundness, completeness and undecidability of predicate logic (statements of results only)
+
+CISC220
+3
+System-Level Programming
+F/W
+NONE
+NONE
+CISC124
+NONE
+Basic concepts of Unix-like systems. Shells and scripting. System-level programming in the C language. Software development tools and techniques.
+System-level Concepts The basic system-level concepts to be surveyed include shells, file system and directory operations (including basic tools such as chmod, grep, diff, and find), pipes, filters, processes, signals, and sockets. Scripting Scripting is to be discussed for a shell such as bash. A scripting language such as Perl or Python might be considered briefly. C Programming C programming topics to be discussed include: macros, header files, unions, strings, buffer overflow, pointer arithmetic, function pointers, use of dynamic storage, variable-length argument lists. Software Development Tools and Techniques The software development topics (and corresponding Unix-like system tools) to be surveyed include
+
+CISC221
+3
+Computer Architecture
+F/W
+NONE
+CISC124
+NONE
+CISC220
+The descriptive levels of computer architecture. Instruction-set architectures. Assembly Language. Data representation. Support for operating-system management and high-level languages. Input/output and interrupts. Designing for performance. Digital Logic.
+Introduction to Computer Architecture Course description, terminology, levels of abstraction, computers as multi-level machines. Introduction to C programming Program Structure, data types, operations, control structures, functions, arrays. Instructions - Language of the Computer Basic instruction set, operand specification, CISC (e.g., Intel IA-32) and RISC (e.g., MIPS) architectures; mapping high level languages to machine language instructions. Assembly Language Programming Assembly language program structure, linkers, debugging techniques, system call mechanism. Data representation and computer arithmetic Representing signed, unsigned, floating point numbers. Computer addition and subtraction. Enhancing Performance Caches, pipelining, instruction-level parallelism and superscalar processors. Multiprocessors and clusters. Storage Management Memory management and memory hierarchy. Uniprogramming, multiprogramming. Segmentation. Virtual memory and demand paging. Devices, Interrupts and Connectivity I/O, role of operating system, interrupts and traps. Interrupt service routines. Event driven programming. Buses and networks. Digital Logic Combinational networks, truth tables, boolean algebra. Sequential networks
+
+CISC223
+3
+Software Specifications
+W
+NONE
+CISC124
+CISC204
+NONE
+Introduction to techniques for specifying the behaviour of software, with applications of these techniques to design, verification and construction of software. Logic-based techniques such as loop invariants and class invariants. Automata and grammar-based techniques, with applications to scanners, parsers, user-interface dialogs and embedded systems. Computability issues in software specifications.
+Regular languages Expressive power, deterministic finite state automata, non-deterministic finite state automata, regular grammar, regular expressions, equivalence of these formalisms (with partial proofs), closure properties, pumping lemma. Context-free languages Expressive power, nondeterministic pushdown automata, context-free grammars, produce-match npdas, equivalence of formalisms, closure properties, pumping lemma. Deterministic context-free languages Grammar manipulation for better grammar properties, lookahead, LL parsing, changing an npda into a dpda, importance for compilation. Computability Church-Turing thesis, Halting problem and related problems. If time permits: enumeration of partial functions and implications for computability, universality. Specification Alphabets of observations, predicates to describe program states, specifications as predicate transformers, programs as executable specifications, verification vs calculation. Introduction to a specification methodology Reasoning with programs: assignment statements, sequential composition, conditional statements, loops (including loop invariants, proof of termination), array/vector assignment. If time permits: procedure/method call or class invariants. Either Hoare-style or refinement-calculus methodologies may be used.
+
+CMPE212
+3
+Object Oriented Programming for Engineers
+NO
+CISC124
+APSC142 ELEC278
+NONE
+NONE
+The course will start with a brief look at fundamental Java. OOP topics will be covered, along with mechanisms for user interaction, file input and output, and error handling. Some of the new features of Java 8 will be discussed along the way. Writing GUI ("Graphical User Interface") applications with JavaFX will provide practice with all course topics.
+NONE
+
+CISC226
+3
+Game Design
+W
+NONE
+CISC124
+NONE
+NONE
+An introduction to techniques for designing elementary computer games. Topics will include game development tools and processes, principles of game design, game prototyping and game evaluation.
+This course will teach students tools and techniques aiding the design of successful digital games. Upon completion of the course, students will understand key game design principles, tools and processes for creating digital games, as well as how to implement elementary games.Computer games have become an important entertainment medium and a signi?cant application domain within computing science. This course introduces the tools, processes and design concepts necessary to develop elementary computer games. Games are typically developed by large, multi-disciplinary teams. The course will examine how such teams are organized, and describe the agile development processes most teams deploy. It will provide an overview of roles of the development team members and the toolsets they use. The core of the course will be devoted to techniques for designing games. Students will perform a term-long, team-based design and development project. The course will discuss design principles for games, technologies for implemeing these designs, and techniques for evaluating their success. The course will include special units on games and society, and on the design of serious games such as educational games and games for health.
+
+CISC235
+3
+Data Structures
+F/W
+NONE
+CISC124 CISC203
+NONE
+NONE
+Design and implementation of advanced data structures and related algorithms, including correctness and complexity analysis. Efficient implementation of lists, sets, dictionaries, priority queues, trees, graphs, and networks using arrays, hash tables, heaps, and hierarchical linked structures. String and graph problems, such as string matching and shortest path. External storage and input-output complexity.
+Complexity Analysis Identities for logs and exponents Evaluating sums and recurrences Asymptotic notation Basic probabilistic analysis Review of Basic Data Structures and Recursion Arrays, lists, stacks, queues, linked structures Recursive algorithms Trees General trees, binary trees Binary search trees Balanced binary search trees, such as AVL, (2,4), red-black, AA, skip-list Priority Queues Heap implementation Insert, Delete, Bottom-up Heap construction Heap-sort Dictionaries Unordered and ordered dictionaries Hash table implementation Basic hash functions Collision resolution Load factors External Searching and Sorting (a,b) and B-Trees Multi-way merge sort Input/output complexity Text Processing Pattern matching Tries Graphs Simple graphs, directed graphs, weighted graphs Graph representation (edge list, adjacency list, adjacency matrix) Graph traversals Shortest paths and other graph problems, such as minimum spanning trees
+
+CISC251
+3
+Data Analytics
+F
+CISC333 CMPE333
+NONE
+NONE
+NONE
+Introduction to data analytics; data preparation; assessing performance; prediction methods such as decision trees, random forests, support vector machines, neural networks and rules; ensemble methods such as bagging and boosting; clustering techniques such as expectation-maximization, matrix decompositions, and biclustering; attribute selection.
+Data acquisition and preparation Inductive modelling as an epistemology Assessing model performance (4 weeks) Simple predictors: decision trees, k-nearest neighbour, Na�ve Bayes prediction Stronger predictors: random forests, support vector machines, neural networks Ensemble techniques (bagging, boosting) Clustering (4 weeks) Similarity measures: distance-based, distribution-based, density-based Algorithms: k-means, expectation-maximization, DBScan Metrix decompositions (such as singular value decomposition) and projections Attribute selection techniques Applications (2 weeks) Applications selected from a variety of domains (natural language, bioinformatics, business) 
+
+CISC260
+3
+Programming Paradigms
+F
+NONE
+CISC124
+CISC204
+NONE
+Review of imperative programming features. Introduction to other widely used programming paradigms. Functional programming languages, such as LISP and Haskell. Higher order functions, lazy evaluation, abstract and recursive types, structural induction, symbolic expressions. Logic programming languages, such as PROLOG. Operational interpretation of predicates and terms, proof search, unification, backtracking. Typical applications.
+recursion lists and trees type checking: polymorphic static types vs. dynamic type checking use of accumulators for efficiency Functional Languages the basic idea of a functional language: programming with mathematical-style functions, without assignable variables and jumps using structural induction to prove properties of functional programs higher-order functions, including maps, filters, folds, and lambda expressions lazy evaluation Logic-based Languages the basic idea of operational interpretation of a logical language: facts, rules and queries the declarative meaning of a logical program: how goals may be inferred from facts and rules the procedural meaning of a logical program: how the programming language searches for and applies facts and rules, including pattern matching rules and backtracking making intelligent use of recursive rules while avoiding infinite recursion negation as failure use of "(green) cuts" for optimization
+
+CISC271
+3
+Linear Data Analytics
+W
+MATH272 PHYS213 PHYS313
+OR CISC101 CISC121 OR MATH110 MATH111 MATH112 OR MATH120 MATH121 MATH124 MATH126
+NONE
+NONE
+Elements of linear algebra for data analysis, including: solution of linear equations; vector spaces; matrix decompositions; principal components analysis; linear regression; hyperplane classification of vectorial data.
+This course will explore techniques for analyzing sets of data that are in vectors. These techniques are primarily the use of linear algebra, which will be applied to data gathered by empirical studies. To test, implement, and analyze this material, MATLAB will be used as an interactive tool and programming language. Students are expected to learn basic MATLAB on their own. Some tutorial information will be provided early in the course. For basic material in data analytics, students can expect to be instructed in: organization of data into vectors and matrices description of vectors in a space minimal space descriptors linear relations spaces of solutions to linear relations For basic material in machine learning, students can expect to be instructed in: linear regression, including methods based on the QR decomposition data reduction by principal components analysis methods based on the singular value decomposition methods based on decision hyperplanes, including artificial neurons and support vectors
+
+CISC282
+3
+Fundamentals of Web Development
+F
+NONE
+IN(2) CISC124
+NONE
+NONE
+This course surveys current best practices for implementing attractive, usable, secure and maintainable web applications. Other issues considered include: accessibility, platform and browser independence, licensing of intellectual property, scalability, user privacy, and using web technologies in mobile development.
+Introduction and Overview (1 week) HTML (2 weeks): block and inline elements, HTML5, the AODA CSS (4 weeks): properties and values, selectors, inheritance, conflicts, the box model, accessibility, layout, floats, positioning, responsive design JavaScript (2 weeks): syntax, events, DOM and handlers, jQuery PHP (2 weeks): syntax, functions, embedding Other topics (1 week): varying from year to year, e.g. AJAX
+
+CISC320
+3
+Fundamentals of Software Development
+F
+NONE
+CISC220 CISC235
+NONE
+NONE
+now required in the Biomedical Computing program development of real-world software applications, including memory and performance-intensive applications, and those running on multi-core or distributed architectures. Its intention is to provide an introduction to such features for students who will not be taking more advanced courses in these areas, while providing the opportunity for a significant programming project for students who will be taking more advanced courses. The course covers programming-language features and programming methodology that have not been covered in earlier courses and are not easy to learn on one's own. C++ is one of the most widely-used programming languages. It is particularly important when performance considerations are primary. Many employers insist on C++ expertise when they hire software developers. The course also provides a brief survey of software-engineering considC and Java but no prior C++ experience is expected.
+Introduction to C++ and its relation to C and Java. Effective use of advanced features of C++: default arguments, explicit object-oriented storage management, namespaces, templates, operator overloading, multiple inheritance, function pointers. Programming methodology and project management: design patterns, unit testing and debugging, issue tracking and version control, performance profiling and memory leak detection, defensive programming with assertions and exception handling, documentation. Dealing with numerical issues: handling very small and large numbers, overflow, underflow, scaling, etc. Elementary concurrent programming: threads, deadlock, starvation. Elementary distributed-systems programming: sockets, client-server architectur
+
+CMPE320
+3
+Fundamentals of Software Development
+F
+NONE
+CISC220 CISC235
+NONE
+NONE
+now required in the Biomedical Computing program development of real-world software applications, including memory and performance-intensive applications, and those running on multi-core or distributed architectures. Its intention is to provide an introduction to such features for students who will not be taking more advanced courses in these areas, while providing the opportunity for a significant programming project for students who will be taking more advanced courses. The course covers programming-language features and programming methodology that have not been covered in earlier courses and are not easy to learn on one's own. C++ is one of the most widely-used programming languages. It is particularly important when performance considerations are primary. Many employers insist on C++ expertise when they hire software developers. The course also provides a brief survey of software-engineering considC and Java but no prior C++ experience is expected.
+Introduction to C++ and its relation to C and Java. Effective use of advanced features of C++: default arguments, explicit object-oriented storage management, namespaces, templates, operator overloading, multiple inheritance, function pointers. Programming methodology and project management: design patterns, unit testing and debugging, issue tracking and version control, performance profiling and memory leak detection, defensive programming with assertions and exception handling, documentation. Dealing with numerical issues: handling very small and large numbers, overflow, underflow, scaling, etc. Elementary concurrent programming: threads, deadlock, starvation. Elementary distributed-systems programming: sockets, client-server architectur
+
+CISC322
+3
+Software Architecture
+F
+NONE
+CISC203 CISC204 CISC223 CISC235
+NONE
+NONE
+This course helps students with the transition from programming in the small (as presented in CISC 121 and 124) to programming in the large.  Software architecture provides a conceptual and notational framework for expressing the high-level implementation design of software systems. As such, software architecture complements studies of software requirements (CISC 423), human factors (CISC 325) and validation and verification (CISC 327.) The goal of this course is to expose students to the problems of developing large software systems and to introduce them to architectural techniques to help solve these problems. The theory of software architecture includes criteria for decomposing systems into a set of components and connectors, notations for describing both the static and dynamic aspects of software architectures, and analytical frameworks for reasoning about architectural tradeoffs. Since third year students typically have not been exposed to the development of large software systems, the course involves wo
+Software architectural views Architectural perspectives: structural, dataflow and object- oriented views Notations for expressing architectural structure (e.g., UML component, deployment, class diagrams) Notations for expressing architectural dynamics (e.g., UML sequence diagrams) Designing software architectures Component decomposition, interface specification, protocol specification Architectural trade-off analysis Architectural qualities (e.g., performance, availability, modifiability, reusability, security, portability, testability) Trade-offs over quality requirements Architectural styles and design patterns Architectural styles (e.g., pipes and filters, layers, interpreter, repository, blackboard) Object-Oriented Design patterns (e.g., iterator, flyweight, adapter, abstract factory)
+
+CISC324
+3
+Operating Systems
+W
+NONE
+CISC221 CISC235
+NONE
+CISC220
+Concurrent programs consist of processes that execute in parallel, communicating by sending messages or by referencing shared data structures. References to shared data structures must be synchronized, to ensure consistency and integrity of the data structures. This course uses a programming language such as Java (threads, sleep, synchronized, notify, wait) to allow students to explore issues that arise in concurrent programming: interprocess communication, mutual exclusion, deadlock, and starvation. The course illustrates the use of concurrent programming in operating systems and in simulations. An operating system provides a convenient and efficient interface for the computer user. Operating systems must permit several users to share the same hardware, and to cooperate in mutually-agreed upon ways, while ensuring that one user cannot accidentally or maliciously interfere with other users. An operating system consists of software written in a mixture of high-level language, assembly-language, and perhaps mirocode. Several methods of organizing an operating system are presented, including (1) using layers of abstraction, with the hardware as the lowest layer and the user interface as the uppermost layer, and (2) using a small kernel, which implements the concept of process, augmented by a collection of processes to handle aspects such as memory management, file management, and CPU scheduling.
+Instruction execution cycle, interrupts, DMA (Direct Memory Access). Concurrent processes and threads. Process Control Blocks. Context switching. Operating system kernel; operating-system processes and user processes. Process synchronization. The Mutual Exclusion Problem Software and hardware solutions. Language constructs for process creation, synchronization and communication. Use of semaphores. Classic synchronization problems, such as bounded buffer, readers/writers, and dining philosophers. Monitors. Message Passing. Deadlock Prevention, avoidance, detection, recovery. Memory Management Address spaces. Review of linking and loading. Memory partitions, paging, segmentation. Virtual memory, swapping, demand paging. Page replacement algorithms, and frame allocation. Memory protection. CPU scheduling Short and long-term scheduling. Scheduling algorithms. Protection Examples of security problems such as buffer overflow attacks. Access lists and Capabilities. Creation and revocation of access rights. Study of Selected Operating Systems e.g., Linux or Windows 2000, to illustrate layered and kernel organizations.
+
+CMPE324
+3
+Operating Systems
+W
+NONE
+CISC221 CISC235
+NONE
+CISC220
+Concurrent programs consist of processes that execute in parallel, communicating by sending messages or by referencing shared data structures. References to shared data structures must be synchronized, to ensure consistency and integrity of the data structures. This course uses a programming language such as Java (threads, sleep, synchronized, notify, wait) to allow students to explore issues that arise in concurrent programming: interprocess communication, mutual exclusion, deadlock, and starvation. The course illustrates the use of concurrent programming in operating systems and in simulations. An operating system provides a convenient and efficient interface for the computer user. Operating systems must permit several users to share the same hardware, and to cooperate in mutually-agreed upon ways, while ensuring that one user cannot accidentally or maliciously interfere with other users. An operating system consists of software written in a mixture of high-level language, assembly-language, and perhaps mirocode. Several methods of organizing an operating system are presented, including (1) using layers of abstraction, with the hardware as the lowest layer and the user interface as the uppermost layer, and (2) using a small kernel, which implements the concept of process, augmented by a collection of processes to handle aspects such as memory management, file management, and CPU scheduling.
+Instruction execution cycle, interrupts, DMA (Direct Memory Access). Concurrent processes and threads. Process Control Blocks. Context switching. Operating system kernel; operating-system processes and user processes. Process synchronization. The Mutual Exclusion Problem Software and hardware solutions. Language constructs for process creation, synchronization and communication. Use of semaphores. Classic synchronization problems, such as bounded buffer, readers/writers, and dining philosophers. Monitors. Message Passing. Deadlock Prevention, avoidance, detection, recovery. Memory Management Address spaces. Review of linking and loading. Memory partitions, paging, segmentation. Virtual memory, swapping, demand paging. Page replacement algorithms, and frame allocation. Memory protection. CPU scheduling Short and long-term scheduling. Scheduling algorithms. Protection Examples of security problems such as buffer overflow attacks. Access lists and Capabilities. Creation and revocation of access rights. Study of Selected Operating Systems e.g., Linux or Windows 2000, to illustrate layered and kernel organizations.
+
+CISC325
+3
+Human-Computer Interaction
+W
+NONE
+CISC124 CISC235
+NONE
+NONE
+This introductory course on Human Computer Interaction provides students an opportunity to explore the techniques necessary to design, build and evaluate effective user interfaces. Students examine the physical, psychological, and behavioural characteristics of the user, and then examine their impact on system performance. The course also presents a formal design process that places the user's needs at the forefront. Processes for brainstorming, early design, interface construction, and interface evaluation are presented.Students will be expected to participate in projects in which they practice design and evaluation of user interfaces.
+Task Analysis Memory and Human error Visual Perception Introduction to task analysis Hierarchical task analysis Ethnographical methods Usability and Design Process Interaction Paradigms Usability Principles User-Centered Design Process User Models From Task to Tool User Conceptual Models in Design Early Design User Action Notation Design Techniques Visual Design Models Designing for Input Fitts's Law Evaluating Input Devices Early Evaluation Evaluating Design Models Evaluating Prototypes Rapid Prototyping Passive Visual Prototyping Functional Prototyping Visual Design Characteristics of good representations Tufte's guidelines Visual variables Systems Empirical Evaluation Designing your experiment Evaluating your results Subjective measurements
+
+CISC326
+3
+Game Architecture
+F
+CISC322
+CISC203 CISC204 CISC223 CISC235
+NONE
+CISC226
+An introduction to software architectural design through the application domain of game development. Abstractions and patterns of interactions and relationships among modules. Design recovery. Relationship to requirements and testing.
+Introduction (2 weeks): Software architects and architectures. Distinguishing features of game architecture. Nonfunctional requirements and quality attributes (2 weeks) Architectural styles (2 weeks) Example architectures: Linux; a modern game engine (2 weeks) Reflexion Models (2 weeks) Design Patterns (2 weeks)
+
+CISC327
+3
+Software Quality Assurance
+F
+NONE
+CISC220 CISC223
+NONE
+NONE
+The primary purpose of this course is to introduce the concepts, theory and practice of software quality assurance through testing, inspection, and measurement.
+Introduction (2 weeks) Quality -- what it is, how is it measured, how is it achieved Software Process -- process models, how does quality fit into the software life cycle, software process evaluation eXtreme Programming -- idea of continuous evolution and quality control Testing (5 weeks) Systematic Testing -- what it is, levels of testing, designing for test Black Box Testing -- functional, input, output, partitioning and OO testing White Box Testing -- coverage, path, decision and mutation testing Continuous Testing -- regression, defect testing Test Automation -- test maintenance and analysis, harnesses, tracking, tools Inspection (1.5 weeks) Systematic Inspection -- what it is, levels of inspection, inspection process, formal reviews Requirements and Specification Reviews -- early user feedback Design Reviews -- interface reviews, working papers Timelines and Scheduling -- continuous scheduling Code Inspection -- four-eyes principle, sign-offs, independent vs continuous, pairs Measurement (1.5 weeks) Software Metrics -- measures of quality Product Quality Metrics -- timeliness, robustness, reliability, maintainability Code and Structure Metrics -- decision points, code complexity, size, structure metrics Software Dependability and Security (1 Week) Dependability -- attributes, impairments, means, reliability Security -- computer security, program security
+
+CISC329
+3
+Introduction to Computer-Integrated Surgery
+NO
+COMP230 CISC330
+NONE
+NONE
+NONE
+An introduction to concepts and novel technologies used in computer-integrated surgery, including image based navigation, medical robotics and virtual reality. Concepts and techniques learned in class will be applied in a hands-on surgery session where students perform minimally invasive surgery with virtual-reality navigation tools. Enrolment is limited.
+Methods and Technologies Medical imaging Image computing Position sensing and tracking Surgical navigation Medical robotics Virtual reality Haptics and Human-Computer Interfaces Clinical Applications Biopsies Therapeutic injections and tumour ablations Brachytherapy implants Radiotherapy and radiosurgery Musculoskeletal surgery Clinical safety Hands-on Surgery Session
+
+CISC330
+3
+Computer-Integrated Surgery
+F
+COMP230 COMP329
+CISC121 OR CISC271 MATH272
+NONE
+NONE
+Concepts of computer-integrated surgery systems and underlying techniques such as medical-image computing, robotics, and virtual reality, learned through real-life applications and problems. Techniques learned in class will be applied in a hands-on surgery session where students perform minimally invasive surgery with virtual-reality navigation tools. Enrolment is limited.
+Methods and Technologies Medical imaging Image computing Position sensing and tracking Surgical navigation Medical robotics Virtual reality Haptics and Human-Computer Interfaces Clinical Applications Biopsies Therapeutic injections and tumour ablations Brachytherapy implants Radiotherapy and radiosurgery Musculoskeletal surgery Clinical safety Hands-on Surgery Session
+
+CISC332
+3
+Database Management Systems
+W
+COMM392
+CISC124 CISC204
+NONE
+NONE
+Data models: relational, entity-relationship. Relational query languages: relational algebra and SQL. Relational database design. Application interfaces and embedded SQL. Storage and indexing.
+Conceptual Design In this unit, students are taught to interpret database requirements and to express these requirements using the Entity-Relationship model. Relational Model This unit introduces the Relational model, integrity constraints, views, and the data definition language (DDL). Students learn to translate an ER diagram to the Relational model. Query Languages Relational Algebra forms the foundation for query languages such as SQL. Students learn to express queries in both Relational Algebra and SQL. Database Application Development Students are introduced to the various methods of database application development. JDBC and Embedded SQL (using C) are explored in depth. Storage and Indexing This unit covers various file storage formats and indexing techniques such as clustered and unclustered B+ trees and hash indexes and identifies under what circumstance each technique is best used.
+
+CISC340
+3
+Digital Systems
+F
+NONE
+CISC221
+NONE
+NONE
+This course is designed to provide the student with a basic knowledge of: digital electronics, circuit development techniques, design tools, basic computer circuits and computer architectures, microprocessor interfaces and communication techniques. After completing the course, the students should have an understanding of the technologies, components, and CAD (Computer Aided Design) tools used in digital systems design and the hardware design issues influencing system complexity, performance, and reliability.
+Combinational Systems Boolean algebra theorems, truth tables, Karnaugh maps. Generation of switching expressions. Implementation of switching expressions as digital logic networks. Digital Logic Design Using CAD (Computer Aided Design) tools CAD tools for design entry, simulation, synthesis, design management, such as the "Quartus" integrated design software by Altera Corp. VHDL - A Hardware Description Language VHDL Basics Standard Combinational Modules Gates, multiplexors, decoders, ALUs, buffers and transceivers. Example circuits relating to computer applications. Programmable Logic: PALs, FPGAs Architectures, benefits, CAD support. Sequential Systems: flip-flops, registers, state machines FF behaviour, state machine design, control applications in computers. Register Transfer Level (RTL) design of complex sequential systems Communication Networks The state of current computer bus structures and basics of serial network communication. Emerging Technologies Directions of technologies involved in digital electronics.
+
+CISC351
+3
+Advanced Data Analytics
+W
+NONE
+CISC251 STAT263 OR APSC142 APSC143 CISC101 CISC110 CISC151 CISC121
+NONE
+NONE
+Design and implementation of complex analytics techniques; predictive algorithms at scale; deep learning; clustering at scale; advanced matrix decompositions, analytics in the Web, collaborative filtering; social network analysis; applications in specialized domains.
+Advanved Analytic Algorithms (6 weeks) Deep learning (restricted Boltzmann machines, stacked denoising autoencoders, prediction and clustering using deep networks, the adversarial example problem) Gradient boosting trees Generalized linear models Scaling clustering algorithms (DBNorm) Advanced clustering using matrix decompositions (Singular Value Decomposition, Independent Component Analysis, Semi-Discrete Decomposition, Non-Negative Matrix Factorization) Application to non-tabular data (4 weeks) Web analytics (PageRank, HITS, reducibility problem) Collaborative filtering and recommender systems Social network analysis (social network properties, viral spread, spectral embedding) Text analytics Scaling (1 week) Scaling algorithms to larger data, introduction to clusters for analytics Examples (1 week) Examples of real-world applications in natural language analysis, security, marketing
+
+CISC352
+3
+Artificial Intelligence
+W
+NONE
+CISC235
+NONE
+NONE
+An introduction to the basic principles and tools of artificial intelligence. Problem solving methods and knowledge representation techniques.
+Introduction history; foundations and contributing disciplines; the Intelligent-Agent theme; agent design hierarchy; the state of the art Problem Solving searching; uninformed search strategies; avoiding repeated states; informed search; heuristic functions; local search and optimization; constraint satisfaction problems; variable and value ordering; adversarial search and games; minimax; alpha-beta pruning; state of the art Knowledge and Reasoning logical agents and propositional logic; reasoning and effective inference; first order logic; assertions and queries in FOL; knowledge engineering; knowledge representation; categories and objects; actions, situations and events; mental events, objects, beliefs; reasoning with categories; reasoning with default information; truth maintenance Perception (Computer Vision) image formation; early processing and edge detection; extracting three-dimensional information (shape from x); object recognition and pose estimation; vision for navigation Planning planning problems; state-space search; partial order planning; planning graphs; planning and propositional logic (as time allows)
+
+CISC360
+3
+Programming Paradigms
+F
+NONE
+CISC124 CISC204
+NONE
+NONE
+Review of imperative programming features. Introduction to other widely used programming paradigms. Functional programming languages, such as LISP and Haskell. Higher order functions, lazy evaluation, abstract and recursive types, structural induction, symbolic expressions. Logic programming languages, such as PROLOG. Operational interpretation of predicates and terms, proof search, unification, backtracking. Typical applications.
+recursion lists and trees type checking: polymorphic static types vs. dynamic type checking use of accumulators for efficiency Functional Languages the basic idea of a functional language: programming with mathematical-style functions, without assignable variables and jumps using structural induction to prove properties of functional programs higher-order functions, including maps, filters, folds, and lambda expressions lazy evaluation Logic-based Languages the basic idea of operational interpretation of a logical language: facts, rules and queries the declarative meaning of a logical program: how goals may be inferred from facts and rules the procedural meaning of a logical program: how the programming language searches for and applies facts and rules, including pattern matching rules and backtracking making intelligent use of recursive rules while avoiding infinite recursion negation as failure use of "(green) cuts" for optimization
+
+CISC365
+3
+Algorithms I
+W
+NONE
+CISC203 CISC204 CISC235
+NONE
+NONE
+Principles of design, analysis and implementation of efficient algorithms. Case studies from a variety of areas illustrate divide and conquer methods, the greedy approach, branch and bound algorithms and dynamic programming.
+Complexity of algorithms and Complexity of problems Complexity Notation, Reducibility, P, NP, and NP-Completeness, Classic NP-Complete Problems, Proofs of NP-Completeness. The Divide and Conquer Paradigm Quicksort, Median Value of a Set, Closest Pair of Points. The Greedy Paradigm Huffman Coding, Change-Making Problem, Activity Selection, Minimum-Weight Spanning Trees. The Dynamic Programming Paradigm Longest Common Subsequence, Change-Making Problem Revisited, Subset Sum, Chained Matrix Multiplication. The Branch-and-Bound Paradigm 15-Puzzle, Travelling Salesperson Problem, Subset Sum. Advanced Topics Recent choices have included Linear Programming, Text Searching and Approximate String Matching, Convex Hull Algorithms.
+
+CISC371
+3
+Nonlinear Optimization
+F
+CISC351
+CISC271
+NONE
+NONE
+Methods for computational optimization, particularly examining nonlinear functions of vectors. Topics may include: unconstrained optimization; first-order methods; second-order methods; convex problems; equality constraints; inequality constraints; applications in machine learning.
+introduction to optimization, optimality conditions (1 week) first order methods, gradient descent, backtracking (2 weeks) second-order methods, Newton's method (1 week) convex sets, level sets (2 weeks) convex optimization, gradient projection (1 week) linear constraints and inequality constraints (1 week) support vector machines, dual formulations (2 weeks) neural networks as problems in optimization (2 weeks)
+
+CISC372
+3
+Advanced Data Analytics
+W
+CISC351
+CISC371 IN(STAT)
+NONE
+NONE
+Inductive modelling of data, especially counting models; ensemble approaches to modelling; maximum likelihood and density-based approaches to clustering, visualization. Applications to non-numeric datasets such as natural language, social networks, Internet search, recommender systems. Introduction to deep learning. Ethics of data analytics.
+Data analytics as an epistemology, review of optimisation-based prediction and clustering, ethical issues in data analytics (1 week) Assessing model quality (accuracy, F1 score, precision, recall, ROC, AUC) (1 week) Predictors based on counting: decision trees, rule systems (2 weeks) Bias, variance, ensemble techniques (random forests, xgboost, bagging, boosting) (2 weeks) Visualization (1 week) Data analytics for graph data (Internet search, recommender systems) (2 weeks) Social network analysis (1 week) Natural language analytics (1 week) Introduction to deep learning (1 week)
+
+CISC422
+3
+Formal Methods in Software Engineering
+F
+NONE
+IN(4) CISC223
+NONE
+NONE
+Mathematical methods for describing software behaviour and structure. Topics include (but are not limited to) the following: Requirements specification. Module specification: axiomatic, algebraic, and trace specifications. Abstract models. Verification. Specification-based validation.
+Propositional logic First-order predicate logic Introduction to theorem proving Typical tool: Jape Formal specifications and their analysis Introduction to a formal specification framework, such as Z, VDM, or B Introduction to object modeling Automatic analysis of object models Typical tool: Alloy Constraint Checker Introduction to UML and OCL Validating UML models and OCL constraints Typical tool: USE Finite state machines and their analysis Modeling systems using finite state machines Temporal logics, CTL Explicit CTL model checking Binary decision diagrams (time permitting) Symbolic CTL model checking (time permitting) Typical tool: nuSMV
+
+SOFT423
+3
+Software Requirements
+W
+NONE
+CISC322 OR SOFT325 CISC325
+NONE
+NONE
+This is an advanced course on the requirements phase of the software engineering process. The focus on the course is on discovering exactly what it is supposed to be designed and implemented, and communicating those objectives to the design and implementation team. This includes other constraints on the desired system such as legal, financial, and historical. A considerable amount of time is spent on formal modeling of both the requirements and the desired system.
+NONE
+
+CISC423
+3
+Software Requirements
+W
+NONE
+CISC322 OR SOFT325 CISC325
+NONE
+NONE
+This is an advanced course on the requirements phase of the software engineering process. The focus on the course is on discovering exactly what it is supposed to be designed and implemented, and communicating those objectives to the design and implementation team. This includes other constraints on the desired system such as legal, financial, and historical. A considerable amount of time is spent on formal modeling of both the requirements and the desired system.
+NONE
+
+CISC425
+3
+Advanced User Interface Design
+NO
+NONE
+CISC325
+NONE
+NONE
+This is a topics-based course that presents a comprehensive set of areas of expertise within the broad range of activities in Human-Computer Interaction (HCI). Each area will be treated in depth, on the basis of its scientific foundations. In addition, you will get important knowledge on the body of scientific work in HCI, practice of scientific evaluation, practice in advanced engineering. Unlike CISC-325/3.0, which focuses on user-centered design processes, this course focuses on underlying principles, and your experience in applying these principles.
+Information visualization Input Attentive user interfaces Eye-tracking and vision input Design and empirical evaluation of input Advanced Interaction Techniques Awareness, notifications and CSCW Disappearing computers Context-aware computing Computer-supported cooperative work
+
+CISC432
+3
+Advanced Data Management Systems
+NO
+NONE
+CISC235 CISC332
+NONE
+NONE
+Storage and representation of “big data”, which are large, complex, structured or unstructured data sets. Provenance, curation, integration, indexing and querying of data.
+How "big data" is different from conventional databases Relation to cloud computing, data science, and Internet of Things Overview of representational and organizational issues Big Data Storage Systems (3 weeks) Current technologies such as HDFS, SQL, NoSQL, Graph and hybrid storage systems Management and query of structured, semi-structured, unstructured, and hybrid data Processing Frameworks (4 weeks) Online Transaction Processing (OLTP), Online Analytic Processing (OLAP) and Benchmarking Distributed data processing, eg MapReduce, Hadoop In-memory processing e.g. Spark Cloud-based information systems Curation, Workflows, and Provenance (3 weeks) Representation of the meaning of data and metadata Creating, scheduling, executing, and managing distributed data processing workflows Origin and history of data sets
+
+CISC434
+3
+Distributed Systems
+NO
+NONE
+CISC324
+NONE
+NONE
+Distributed systems goals, characteristics, and architectures. Processes: models, inter-process communication and coordination. Name services. Consistency and replication. Fault tolerance: design for reliable communication and recovery. Security. Development paradigms based on data types: object, file, and web-based systems.
+Concepts and Architectures (1.5 weeks) Goals Characteristics of different types of distributed systems Architecture models Processes (1.5 week) Process and thread organization Design of client and server processes Code migration Communication (1.5 weeks) Clock synchronization Mutual exclusion Election algorithms Distributed transactions Name Services (1 week) Names, identifiers, and addresses Flat, structured, and attribute-based naming Consistency and Replication (1 week) Data-centric consistency Client-centric consistency Management of replicas Fault Tolerance (1 week) Dependability and failure models Process organization for fault tolerance Reliable client-server and group communication Recovery: checkpointing and message logging Security (1-2 weeks) Threats, Policies, Mechanisms, Design issues Cryptography Secure channels Access control Security management Development Paradigms Based on Data Types (1.5 week) Object-based systems File systems Web-based systems
+
+CISC435
+3
+Computer Networks
+F
+NONE
+CISC324
+NONE
+CISC340
+Fundamental concepts in the design and implementation of computer communication networks, protocols, and applications. Overview of network architectures; applications; network programming interfaces (e.g., sockets); transport; congestion; routing and data link protocols; addressing; local area networks; wireless networks; mobility management
+What is the Internet? What is a protocol? The Network Edge, Core, and Access Networks Physical Media Delay and Loss in Packet-Switched Networks Protocol Layers and Their Service Models Internet Backbones, NAPs and ISPs The Application Layer Principles of Application-Layer Protocols The World Wide Web: HTTP File Transfer: FTP Electronic Mail in the Internet The Internet's Directory Service: DNS Socket Programming Overlay Networks The Transport Layer Transport-Layer Services and Principles Connectionless Transport: UDP Principles of Reliable of Data Transfer Principles of Congestion Control TCP Congestion Control The Network Layer Introduction and Network Service Model Routing Principles Hierarchical Routing IP: the Internet Protocol Routing in the Internet What is Inside a Router? The Link Layer and Local Area Networks The Data Link Layer: Introduction, Services Error Detection and Correction Multiple Access Protocols and LANs LAN Addresses and ARP Ethernet PPP: the Point-to-Point Protocol Wireless Networks Wireless Access WiFi: IEEE 802.11 Handling Mobility
+
+SOFT437
+3
+Software Performance Analysis
+NO
+NONE
+CISC324 ELEC377
+NONE
+NONE
+This course focuses on the basic principles of performance analysis, performance modeling and evaluation for software systems. Students learn why software performance is critical to software development processes. The course covers the principles of software performance engineering (SPE), performance patterns and anti-patterns for performance-oriented design, techniques for eliciting performance objectives, techniques for gathering data needed for evaluation, and guidelines for the evaluation at each stage of software development process.
+NONE
+
+CISC437
+3
+Software Performance Analysis
+NO
+NONE
+CISC324 ELEC377
+NONE
+NONE
+This course focuses on the basic principles of performance analysis, performance modeling and evaluation for software systems. Students learn why software performance is critical to software development processes. The course covers the principles of software performance engineering (SPE), performance patterns and anti-patterns for performance-oriented design, techniques for eliciting performance objectives, techniques for gathering data needed for evaluation, and guidelines for the evaluation at each stage of software development process.
+NONE
+
+CISC451
+3
+Topics in Data Analytics
+F
+NONE
+CISC351
+NONE
+NONE
+Content will vary from year to year; typical areas covered may include: tools for large scale data analytics (Hadoop, Spark), data analytics in the cloud, properties of large scale social networks, applications of data analytics in security.
+Conceptual and pragmatic difficulties in large-scale analytics Properties of clusters (for computation) and clouds (for storage) Tools for analytics at scale (Hadoop, Spark, Tensorflow) Applications of large-scale analytics (4 weeks) such as social network analysis in networks of planetary scale (e.g. Facebook); textual analytics of large corpora (e.g. forums, tweets); collaborative filtering in large-scale review data (e.g. Amazon review datasets)
+
+CISC452
+3
+Neural and Genetic Computing
+F
+COGS400
+CISC235
+NONE
+NONE
+Introduction to neural and genetic computing. Topics include associative memory systems, neural optimization strategies, supervised and unsupervised classification networks, genetic algorithms, genetic and evolutionary programming. Applications are examined, and the relation to biologic systems is discussed.
+Biologic Brain Function Basic Feedforward Networks: Perceptron, Backpropagation Models of Associative Memory Hopfield Network and Boltzmann Machine Unsupervised Learning Systems Genetic Algorithms and Genetic Programming Principal Components Analysis Networks Radial Basis Function Networks Modular Networks: Counterpropagation, Neocognitron
+
+CISC453
+3
+Topics in Artificial Intelligence
+F
+NONE
+CISC352
+NONE
+NONE
+Investigation of selected areas of artificial intelligence research. Possible topics include natural language understanding, computational perception, planning, learning, and neurocomputing.
+Introduction to Planning planning problems; state-space search; partial order planning; planning graphs; planning and propositional logic. Planning and Acting time, schedules & resources; hierarchical planning; non deterministic domains & conditional planning; replanning & continuous planning; multi agent planning. Introduction to Uncertainty acting under uncertainty; probability notation & axioms; inference; Bayes's rule. Probabilistic Reasoning Bayesian networks; representing conditional distributions; exact & approximate inference; probability & first-order representation; alternative approaches for uncertain reasoning; probabilistic reasoning over time; hidden Markov models; Kalman filters; dynamic Bayesian networks; speech recognition. Decision Making utility theory & functions; decision networks; decision-theoretic expert systems; sequential decision problems; value & policy iteration; decision-theoretic agents; game theory. Machine Learning clustering and unsupervised learning; classification; supervised and inductive learning; decision trees and other classification methods; computational learning theory; knowledge in learning; explanation-based learning; relevance information; inductive logic programming; statistical learning; complete data; hidden variables; reinforcement learning. Natural Language communication & language; formal grammar; parsing; augmented grammars; semantic interpretation; ambiguity & disambiguation; discourse understanding.
+
+CISC454
+3
+Computer Graphics
+W
+NONE
+CISC235 IN(3)
+NONE
+NONE
+Introduction to computer graphics, including a review of current hardware; modelling and transformations in two and three dimensions; visual realism: perspective, hidden surface elimination, and shading; colour models; applications in several fields.
+raster/vector graphics; display devices; OpenGL API and examples; linear and vector algebra review Modeling Meshes, hierarchies, CSG; affine transformations; viewing transformations; homogeneous coordinates; flat and smooth shading Animation Keyframing & linear interpolation; linear blending functions; Catmull-Rom curves; linked structures; dynamics; scripting; inverse kinematics Rendering Pipeline; segment and polygon rasterization; segment and polygon clipping Texture Mapping perspective-correct interpolation; environment maps; bump maps; Mip maps; procedural textures Local Illumination Colour models; ambient, diffuse, and specular reflections; light and material properties; shading models: Gouraud, Phong, Cook-Torrance; BRDFs Ray tracing ray/object intersection; Barycentric coordinates; backward ray tracing; bias in ray tracing; antialiasing; shadows; glossiness; motion Volume Rendering ray casting; texture-based methods in hardware; transfer functions Visibility Painter and Z-buffer algorithms; binary spce partitions; potentially visible sets
+
+CISC457
+3
+Image Processing and Computer Vision
+F
+NONE
+CISC124
+NONE
+NONE
+Introduction to fundamental concepts and applications in image processing and computer vision. Topics include image acquisition, convolution, Discrete Fourier Transform, image enhancement, edge detection, segmentation, image registration, human contrast perception, colour perception and reproduction, stereo vision.
+Introduction: A review of the image processing applications, image formation, elements of digital image processing systems. Digital image fundamentals: Image perception; sampling and quantization; basic relationships between pixels. Image enhancement: Point processing; spatial filtering; enhancement in the frequency domain; Fourier transform. Image segmentation, representation and description: Point, line and edge detection; segmentation by thresholding; region- based segmentation; image representation; chain codes; Fourier descriptors; moments; principal component analysis; introduction to image registration. Color image processing: Introduction to color models; pseudo-coloring; applying image segmentation techniques in color images. Introduction to computer vision: Basic camera model; epipolar images; stereo vision; disparity calculation.
+
+CISC458
+3
+Programming Language Processors
+W
+NONE
+CISC121 CISC221 OR CISC223 CISC366
+NONE
+NONE
+Introduction to the systematic construction of a compiler: grammars and languages, scanners, top-down and bottom-up parsing, runtime organization, symbol tables, internal representations; Polish notation, syntax trees, semantic routines, storage allocation, code generation, interpreters.
+Introduction: Overview, Basic Concepts, Compilers and Interpreters, Compiler Structure, Implementation Goals (1 week) Lexical and Syntactic Specification of Programming Languages: Regular expressions, Context free Grammars, Backus-Naur Formalism (1 week) Lexical analysis: Regular Expressions, Scanners, Scanner Generators (1 week) Syntax analysis: Parsers, Top-down and Bottom-up Parsing, Recursive descent, LL and LR techniques, Parser Generators (2 weeks) Run Time Models: Storage Organization, Expression Evaluation, Procedure Linkage, Abstract Machines (1 week) Semantic Analysis: Symbol tables, Scope Analysis, Type Analysis, Attribution (2 weeks) Implementing the Run Time Model: Evaluation and Procedure Stacks, Storage Allocation, Register Assignment (1 week) Code Generation: Code Templates, Arithmetic Expressions, Boolean Expressions, Control Structures (2 weeks) Optimization: Global, Local and Peephole Optimizers (1 week)
+
+CISC462
+3
+Computability and Complexity
+NO
+NONE
+OR CISC223 CISC366
+NONE
+CISC365
+Turing machines and other models of computability such as M-5-recursive functions and random-access machines. Undecidability. Recursive and recursively enumerable sets. Church-Turing thesis. Resource-bounded complexity. Complexity comparisons among computational models. Reductions. Complete problems for complexity classes.
+Review of formal languages Finite automata and regular languages. Context-free grammars. Decidability and undecidability Turing machines. Universality. Diagonalization and the halting problem. Decidable and undecidable problems for regular and context-free languages. Recursively enumerable languages. Extensions of Turing machines. Church-Turing thesis. Establishing unsolvability using reductions. Resource bounded complexity Time and space bounded computations. Nondeterminism. Reductions and complete problems for complexity classes. Relationships between complexity classes Savitch's theorem. Time and space hierarchies. Circuit complexity. Selected advanced topics Rice's theorem. Turing reducibility and relativized computation. Nondeterministic logarithmic space is closed under complement. Alternation. Probabilistic algorithms. Interactive proof systems.
+
+CISC465
+3
+Semantics of Programming Languages
+W
+NONE
+CISC204 CISC223 CISC360
+NONE
+NONE
+Specifying syntax and semantics; operational and denotational semantics. Lambda calculi, type systems and logical foundations. Meta-theoretic properties. Semantics of imperative languages.
+grammars, rules and derivations (1 week) typed lambda calculi; big-step and small-step semantics (2 weeks) logical foundations: Gentzen's natural deduction, sequent calculus, the Curry–Howard correspondence (3 weeks) meta-theoretic properties: induction on derivations; logical soundness and completeness; type preservation and progress (2 weeks) subtyping and polymorphism (1 week) semantics of imperative languages: effects and state (1 week) denotational semantics and domain theory (1 week) 1 week reserve for tests and advanced topics
+
+CISC466
+3
+Algorithms II
+NO
+NONE
+CISC365
+NONE
+NONE
+A continuation of CISC 365/3.0. Lower bound theory. Average-case analysis of algorithms. Approximation algorithms. Probabilistic algorithms. Parallel algorithms.
+Theoretical Foundations for Dynamic Programming (1 week) Elements of dynamic programming The principle of optimality Theoretical Foundations for Greedy Methods (1 week) Elements of the greedy strategy Matroids Amortized Analysis of Algorithms (1 week) The aggregate method The accounting method The potential method Dynamic tables Sorting Networks (1 week) Comparison networks The 0-1 principle Examples of sorting networks Matrix Operations (1 week) Fast matrix multiplication Parallel algorithms Linear Programming (1 week) The simplex algorithm Duality Polynomials and the Fast Fourier Transform (1 week) The discrete Fourier transform (DFT) Efficient implementation Circuits for the DFT Number-Theoretic Algorithms (1.5 week) The RSA public-key cryptosystem Primality testing Integer factorization String matching (1 week) The Rabin Karp algorithm The Knuth-Morris-Pratt algorithm Computational Geometry (1.5 week) Segment intersection Convex hulls Closest pair Approximation Algorithms (1 week) Vertex cover Traveling sSalesperson Subset-sum
+
+CISC467
+3
+Fuzzy Logic
+F
+NONE
+IN(4) CISC204
+NONE
+NONE
+History of fuzzy theory; fundamental concepts of fuzzy theory: sets, relations, and logic operators. Approximate reasoning, fuzzy inference, possibility theory. Separation from probability. Fuzzy control systems. Fuzzy pattern recognition. Advanced topics may include fuzzy expert systems, financial systems, graph theory, optimization.
+Limitations of classical logic Introduction to fuzzy set theory Introduction to fuzzy logic Fuzzy Logical Operators (1 week) Conjunction Disjunction Negation Fuzzy Inference Systems (2 weeks) Generalized Modus Ponens Generalized Modus Tollens Approximate Reasoning Fuzzy Control Systems (2 weeks) The Mamdani Model The Sugeno Model Defuzzification methods Fuzzy Implication (1 week) Families of implication operators Hierarchy of implication operators Applications and Advanced Topics in Fuzzy Logic (4 weeks) Subjects as chosen and presented by members of the class Possible topics include: Fuzzy Classification Algorithms Fuzzy Logic and Neural Networks Fuzzy Graph Theory Fuzzy Character Recognition Fuzzy Expert Systems Fuzzy Markov Chains Fuzzy Ranking Algorithms Fuzzy Facial Recognition Fuzzy Image Stabilization Fuzzy Logic in Computer Games
+
+CISC471
+3
+Computational Biology
+F
+NONE
+CISC271 CISC352 OR BCHM218 MBIO218 OR BIOL334 BCHM315
+NONE
+NONE
+Advanced computational approaches to the problems in molecular biology. Techniques and algorithms for sequence analysis and alignment; molecular databases; protein structure prediction and molecular data mining.
+Review of concepts from Biology and Biochemistry Quantitative measurement of molecular data Biological Databases Statistical analysis of Biological data Clustering and Classification Reverse Engineering of Gene Regulatory Networks Sequence Alignment Protein Structure prediction
+
+CISC472
+3
+Medical Informatics
+W
+NONE
+CISC330 OR CISC271 MATH262
+NONE
+NONE
+Current topics in the application of information technology to medical image computing and its use in image-guided medical interventions.
+Recap on medical image modalities (X-ray, CT, ultrasound and MRI) Recap on tracking, coordinate system transformations, navigation, and basics of image-guided interventions Rigid marker registration, iterative closest point (ICP) Image formation Filters Segmentation Similarity measures Optimizers Image registration (2D-2D, 3D-3D, 2D-3D) Deformable registrations Use of the above in image-guided intervention systems
+
+CISC473
+3
+Deep Learning
+NO
+NONE
+CISC371
+NONE
+NONE
+Design of deep neural networks based on leading-edge algorithms such as Restricted Boltzmann Machines, Recurrent Neural Networks, Convolutional Neural Networks, Long-Short Term Machines. Autoencoding as a clustering technique. Applications to prediction problems in natural language and images
+Introduction to deep networks, review of optimisation for learning, backpropagation (1 week) Restricted Boltzmann machines (RBMs), stacking RBMs (1 week) Autoencoding as a clustering technique, Stacked Denoising Autoencoders (2 weeks) Vanishing gradient problem, extending backpropagation to other network structures (1 week) Recurrent neural networks, applications to natural language prediction problems (2 weeks) Convolutional neural networks, applications to natural language and image prediction problems (2 weeks) Long-short term machines (LSTMs), biLSTMs, applications to natural language problems (2 weeks) Matching techniques to problem domains, comparative performance (1 week)
+
+CISC474
+3
+Reinforcement Learning
+F
+CISC453
+CISC352
+NONE
+NONE
+Formal and heuristic approaches to problem-solving, planning, knowledge representation and reasoning, Markov decision processes, dynamic programming, temporal-difference learning, Monte Carlo learning, function approximation, integration of learning and planning. Implementing simple examples of logical reasoning, clustering or classification.
+Basic concepts; the multi-armed bandit problem (2 weeks) Markov Decision Processes (1 week): Goals, rewards, policies and values. Dynamic Programming (1 week): Policy improvement, policy iteration Monte Carlo Method (1 week): Monte Carlo prediction, estimation of action values, discounting. Temporal Difference Learning (1 week): Predictions and methods. Q Learning (1 week): Example use case scenarios. Planning and Learning (2 weeks): Models and planning, integrated planning, acting and learning, bootstrapping. Planning at decision time, real-time dynamic programming, heuristic search, Monte Carlo tree search Prediction and Approximation (1 week): Value function approximation, prediction objective, stochastic gradient and linear methods. Eligibility Traces and Cognitive Science Aspects (1 week): Eligibility traces, policy gradient, Psychology and Neuroscience aspects of RL, Use Cases and Deep RL (1 week): Introduction to ANN and deep learning.
+
+CISC486
+3
+Game Engine Development
+F
+NONE
+CISC226 CISC326 CISC324 OR MATH112 MATH111 MATH110
+NONE
+NONE
+An introduction to "engines" used in networked 3-dimensional games. Topics include game-engine architecture and components providing 3-dimensional rendering, physics simulation, sound, artificial intelligence and networking services.
+Complex 3-dimensional (3D) games are typically constructed using a game engine, a collection of components aiding the core elements of 3D games. These components typically include a graphics-rendering engine, a 3D sound engine, a physics engine, artificial-intelligence tools, a networking library, and possibly additional genre-specific components. This course will teach students the fundamentals of game-engine design and development. The course will review the significant components of game engines, how they are implemented, and how they interact. Following the course, students will be capable of understanding the design of a game engine, and extending its functionality. Using an existing game engine, students will learn the components typically making up a game engine, how they are implemented, and how the components interact. Student projects will involve extending the functionality of at least one engine component. This will be the last content-based course in the Game-Development stream of the Software Design specialization. Students in other Computing programs/options may also want to take this course out of interest.
+
+CISC490
+3
+Topics in Computing Science
+F
+NONE
+VARIES
+NONE
+NONE
+VARIES
+VARIES
+
+CISC496
+3
+Game Development Project
+W
+NONE
+CISC226 OR CISC326 COCA221
+NONE
+NONE
+Students will meet with a project supervisor over the term, with on average a half hour meeting weekly. During the final week of term, students will present their projects to the class as a whole. Throughout the term, students will work in small groups outside the classroom to develop their project.
+Digital games are sufficiently complex and time consuming to develop that most courses can allow students to develop only the most simple of games. This project course allows students to apply the knowledge they have gained in earlier courses in the program to the design and development of a complete game. Students will work in groups of 2-4. They will meet weekly with a supervisor to ensure that the project is meeting its milestones. This course reinforces and expands the content of earlier courses in the game development stream by allowing students to practice the techniques they have learned, and allows them to express their creativity in the concrete realization of a novel game idea. Students will create and document the design of a novel game, evaluate and choose a suitable development platform, perform early evaluation of the game (e.g., through low-fidelity prototypes), develop and document the game's software architecture, implement the game, and perform user testing.
+
+CISC497
+3
+Social, Ethical and Legal Issues in Computing
+W
+NONE
+OR CISC365 CISC352
+NONE
+NONE
+A wide range of topics of current importance in computing, including technical issues, professional questions, and moral and ethical decisions. Students make presentations, deliver paper, and engage in discussion.
+Computer Crime Intellectual Property Privacy Governing the Internet Computer Reliability and Professional Responsibility The Future
+
+CISC498
+3
+Information Technology Project
+FW
+CISC499
+OR CISC322 CISC326 OR CISC325 CISC327 SOFT325 SOFT327
+NONE
+NONE
+Topic selected under the supervision of a faculty member. Emphasis is on the application of software engineering techniques to the development of a substantial software system. Group work, oral presentation, participation in design and code review meetings, and delivery of complete software specification and design are required.
+NONE
+
+CISC499
+3
+Advanced Undergraduate Project
+W
+CISC498
+CISC365
+NONE
+NONE
+Topic selected under the supervision of a faculty member. Emphasis may be on the development of a large program, or on more theoretical issues. Independent research, an oral presentation, and a written report are required.
+NONE
+
+CISC500
+6
+Undergraduate Thesis
+FW
+CISC499 COGS499
+GPA3.5 IN(4)
+NONE
+NONE
+Individual research project under the supervision of a School of Computing faculty member. Evaluation is based on an oral presentation and a written thesis. It is the responsibility of the student to make a research proposal and secure a supervisor prior to enrolling in the course.
+NONE
+
+COGS100
+3
+Introduction to Cognitive Science
+S/W
+NONE
+NONE
+NONE
+NONE
+Cognitive Science is a highly interdisciplinary program which focuses on the study of human mind. Scientists from different areas have been trying to explore the mystery of human mind starting with the philosophers who have been studying the mind-body problem and consciousness. The psychologists came next who have been trying to explore mind using strategic studies and experiments on human behaviour. Linguistics have been focusing on the unique ability of human mind to learn and communicate using languages. Anthropologists have been studying how evolution has shaped human thoughts and behaviours over the many decades. With the advent of modern equipments, neuroscientists are now able to peak into the very complex network of our brain neurons with a view to investigate human mind. Finally, cognitive scientists have joined the team with computers and are applying artificial intelligence techniques to analyze the data collected by scientists in various areas and create models to simulate the processes of mind namely perception, memory, learning, attention, imagery, reasoning, language and decision making. Therefore, the study of cognitive science encompasses the study of human mind from all the different perspectives with a view to better understanding the structure and the nature of mind which leads to the big question: can we ever create a mind?
+Outline: The course will present some very interesting functionality and thought processes of human mind and how they are studied using theories from philosophy, psychology, linguistics, neuroscience, anthropology, and artificial intelligence to get an overview of the marvels of human mind. These mind processes work on some information. You will also study how information is perceived and represented in the mind on which the processes of the mind work - which resembles with how computers work. So can human mind be better explored and predicted by a computer? Can a computer be programmed to behave like a mind? The course introduces interesting theories and examples from multiple areas to and gives a peak into the fascinating study of the very complex human mind. By the end of the course, you should have gained new insights into how your mind works!!!
+
+COGS201
+3
+Cognition and Computation
+F
+NONE
+OR PSYC221 PSYC100 COGS100
+NONE
+CISC101
+An introduction to the role of computation in theories of the mind and thought. Surveys the major models developed to account for human perception and recognition, attention, memory storage and retrieval, skill acquisition, problem-solving, logic and decision making, discourse comprehension, and consciousness. Unitary models of cognitive processes are also examined.
+Introduction to Information Theory. Information and Structure as Psychological Concepts. Cognitive Architectures and Physical Symbol Systems. Connectionist and Neural Network Models. Word Recognition as a prototypical Top-Down Processing. Interactive-Activation Model of Word Processing. The Interactive Activation Model within Coltheart's Dual Route Cascade Model of Word Recognition. Extension of the Interactive Activation Model to Face Recognition and Object Recognition. A Parallel Distributed Processing�Attractor Model of Word Recognition. Visual attention: The Selective Attention for Identification Model. Visual attention: Easy Reader plus Parallel Distributed Processing and Adaptive Control of Thought (ACT) models of Subitization. Working Memory (WM): Modeling the Phonological Loop. Computational Models of the Executive (prefrontal cortex) System. Kintsch and van Dijk Model of Text Comprehension. ACT-R 5.0 and declarative/procedural memory. Computational/mathematical models of memory. Models of Skill Acquisition. Problem-solving: General Problem Solver and Deep Blue. Simulations of Deductive Reasoning using Mental Models. Three frameworks for Computational Linguistics. Models of Discourse Comprehension and Production. Computational consciousness: Global workspace and Intelligent Distribution of Activities models. Current State of Computational Modeling.
+
+COGS300
+3
+Programming Cognitive Models
+NO
+NONE
+CISC352 OR COGS201 COGS200 PSYC220 
+NONE
+NONE
+Systems and techniques for developing computational models of human cognitive processes. Symbolic artificial-intelligence and neural-network approaches. Students will become familiar with programming technology suitable for the implementation of aspects of cognitive models.
+Symbolic programming: Learning to take advantage of the power of LISP Implementation of modelling tools: e.g., decision trees, constraint satisfaction Survey of, and experimentation with, cognitive models: EPAM, SOAR, MINERVA, ACT-R, EPIC, INTERACTIVE ACTIVATION, SPREADING ACTIVATION Techniques for the evaluation of cognitive modelling systems
+
+COGS400
+3
+Neural and Genetic Computing
+F
+CISC452
+CISC235
+NONE
+NONE
+Introduction to neural and genetic computing. Topics include associative memory systems, neural optimization strategies, supervised and unsupervised classification networks, genetic algorithms, genetic and evolutionary programming. Applications are examined, and the relation to biologic systems is discussed.
+Biologic Brain Function Basic Feedforward Networks: Perceptron, Backpropagation Models of Associative Memory Hopfield Network and Boltzmann Machine Unsupervised Learning Systems Genetic Algorithms and Genetic Programming Principal Components Analysis Networks Radial Basis Function Networks Modular Networks: Counterpropagation, Neocognitron
+
+COGS499
+3
+Advanced Undergradute Project
+W
+NONE
+VARIES
+NONE
+NONE
+Topic selected under the supervision of a member of one of the faculties of CISC, LING, PHIL, PSYC. Emphasis may be on experimental, theoretical, or computer implementation topics. Independent research, an oral presentation, and a written report are required.
+NONE
+
+ENDFILE
