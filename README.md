@@ -24,5 +24,5 @@ Here is where all the URL mapping occurs. The first argument in each “path” 
 -	Planner/<b>models.py</b>
 Here is where the database schema is defined. Any changes to database schema should be made here. Each class represents what it is named after (i.e. Course is the schema for courses). Each attribute within the class represents an attribute of the object/relationship it represents. The classes themselves and their attributes are all heavily commented.
 
-<h3> The admin page <h3>
- The admin page can be accessed by simply adding /admin to the end of the local adress. Currently the user name and password are both admin. 
+<h3> The admin page </h3>
+ The admin page can be accessed by simply adding /admin to the end of the local adress. Currently the user name and password are both admin. You can modify the database here.
