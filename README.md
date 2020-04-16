@@ -9,7 +9,7 @@ To run the program, first you will need to install python3.8 and django: https:/
 Once install, open command prompt and cd to the directory "CoursePlanner" (the top level one) you should see a file called manage.py here. if you dont not, you are in the wrong folder.
 Next, simply type: python manage.py runserver. This will start the server and provide you with the local address at which you can access the web application.
 
-<h3> break down of the code </h3>
+<h3> Break down of the code </h3>
 All the important parts of the code are heavily commented, and anyone with django experience should be able to understand it quite easily. For those looking to add to the code I highly suggest watching django tutorial if you are not familiar with it. Here is a brief breakdown of the important parts of code for this who do not wish to learn django:
 
 -	Planner/Templates/planner/<b>index.html</b>:
